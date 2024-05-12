@@ -1,0 +1,75 @@
+Package: luci-app-argon-config
+Version: 0.9
+Depends: libc, luci-compat
+Source: /home/runner/work/gl-sdk-action/gl-sdk-action/buildsource/luci-app-argon-config
+SourceName: luci-app-argon-config
+Section: luci
+SourceDateEpoch: 1650782942
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3586
+Filename: luci-app-argon-config_0.9_all.ipk
+Size: 4469
+SHA256sum: bd8c055b33cd01d70aea9946c0ed3b69e2ea780181783332afa086b2864affd5
+Description:  LuCI page for Argon Config
+
+Package: luci-app-nodogsplash
+Version: 1.0.1
+Depends: libc, nodogsplash, luci-lua-runtime
+Source: /home/doug/Storage/GitHub/openwrt-packages/luci-app-nodogsplash
+SourceName: luci-app-nodogsplash
+Section: luci
+SourceDateEpoch: 1697931527
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3301
+Filename: luci-app-nodogsplash_1.0.1_all.ipk
+Size: 4160
+SHA256sum: 9440b721c55b6307f483a5281738127096fd0bcdf206731b2e5a1ef7a0cc49fc
+Description:  LuCI support for nodogsplash
+
+Package: luci-app-nodogsplash
+Version: 1.0
+Depends: libc, nodogsplash, luci-lua-runtime
+Source: /home/doug/Storage/GitHub/openwrt-xptsp-src/luci-app-nodogsplash
+SourceName: luci-app-nodogsplash
+Section: luci
+SourceDateEpoch: 1697720365
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3293
+Filename: luci-app-nodogsplash_1.0_all.ipk
+Size: 4151
+SHA256sum: 339732f07e8c0f06abcb24a063f2cd4452622e7832e3d753bbe4c33399b21653
+Description:  LuCI support for nodogsplash
+
+Package: luci-app-squid-adv
+Version: 1.0
+Depends: libc, squid, lua-cjson, luci-lua-runtime
+Source: feeds/dougwrt/luci-app-squid-adv
+SourceName: luci-app-squid-adv
+Section: luci
+SourceDateEpoch: 1715438804
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 9196
+Filename: luci-app-squid-adv_1.0_all.ipk
+Size: 10050
+SHA256sum: fe0ff90d2d90b54fe51d7bc37b4b6b0cf5047d491e586af4b714228d7adbf2bd
+Description:  Better LuCI support for Squid
+
+Package: luci-theme-argon
+Version: 2.3.1
+Depends: libc, curl, jsonfilter
+Source: package/downloads/luci-theme-argon
+SourceName: luci-theme-argon
+Section: luci
+SourceDateEpoch: 1703323219
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 389621
+Filename: luci-theme-argon_2.3.1_all.ipk
+Size: 390325
+SHA256sum: 2b3820261c9e98fd1a2ad6bf62162ae5f4beaba14d7393c3b77a0e3927864e07
+Description:  Argon Theme
+
