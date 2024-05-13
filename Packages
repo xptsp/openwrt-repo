@@ -1,3 +1,16 @@
+Package: adguardhome
+Version: 0.107.48-r1
+Depends: libc, ca-bundle
+License: GPL-3.0-only
+Section: net
+URL: https://github.com/AdguardTeam/AdGuardHome
+Architecture: aarch64_cortex-a53
+Installed-Size: 31016960
+Filename: adguardhome_0.107.48-r1_aarch64_cortex-a53.ipk
+Size: 10150202
+SHA256sum: 623613061ed1dd42da7f440c94e37f53686943a9ce9e3bd2e57847f39cca598f
+Description:  Free and open source, powerful network-wide ads and trackers blocking DNS server.
+
 Package: luci-app-argon-config
 Version: 0.9
 Depends: libc, luci-compat
