@@ -11,6 +11,18 @@ Size: 10150202
 SHA256sum: 623613061ed1dd42da7f440c94e37f53686943a9ce9e3bd2e57847f39cca598f
 Description:  Free and open source, powerful network-wide ads and trackers blocking DNS server.
 
+Package: luci-app-adguardhome
+Version: 1.0
+Depends: libc, adguardhome, luci-lib-jsonc, luasocket, lyaml
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 5212
+Filename: luci-app-adguardhome_1.0_all.ipk
+Size: 6041
+SHA256sum: d40fc51862f9bbec91e2ca959e543428ae9e34642d5c0dac73a4a678e681df42
+Description:  LuCI support for AdguardHome
+
 Package: luci-app-argon-config
 Version: 0.9
 Depends: libc, luci-compat
