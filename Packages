@@ -11,6 +11,18 @@ Size: 10150202
 SHA256sum: 623613061ed1dd42da7f440c94e37f53686943a9ce9e3bd2e57847f39cca598f
 Description:  Free and open source, powerful network-wide ads and trackers blocking DNS server.
 
+Package: bcrypt-tool
+Version: 1.1.6-1
+Depends: libc
+License: GPL-2.0-only
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 573349
+Filename: bcrypt-tool_1.1.6-1_aarch64_cortex-a53.ipk
+Size: 573144
+SHA256sum: f483abda9bbd4097a9a9a8d4c6846170ddd073000a99f555cffa09434e8d9588
+Description:  bcrypt-tool is a dandy CLI tool for generating and matching bcrypt hashes
+
 Package: luci-app-adguardhome
 Version: 1.0
 Depends: libc, adguardhome, luci-lib-jsonc, luasocket, lyaml
