@@ -35,6 +35,18 @@ Size: 6041
 SHA256sum: d40fc51862f9bbec91e2ca959e543428ae9e34642d5c0dac73a4a678e681df42
 Description:  LuCI support for AdguardHome
 
+Package: luci-app-adguardhome
+Version: 2.0
+Depends: libc, adguardhome
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 4770
+Filename: luci-app-adguardhome_2.0_all.ipk
+Size: 5600
+SHA256sum: 49dd6132924e5c730bfbefefaaa0ef33eb2b45de124899252a5efd36d3f4ce84
+Description:  LuCI support for AdguardHome
+
 Package: luci-app-argon-config
 Version: 0.9
 Depends: libc, luci-compat
