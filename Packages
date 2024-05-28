@@ -36,6 +36,18 @@ SHA256sum: d40fc51862f9bbec91e2ca959e543428ae9e34642d5c0dac73a4a678e681df42
 Description:  LuCI support for AdguardHome
 
 Package: luci-app-adguardhome
+Version: 2.0.1
+Depends: libc, adguardhome, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 4770
+Filename: luci-app-adguardhome_2.0.1_all.ipk
+Size: 5606
+SHA256sum: 9ec6dabb871f0b138d6482096b73a56a93720e3ffb1321e9500a8c1c4a7c915c
+Description:  LuCI support for AdguardHome
+
+Package: luci-app-adguardhome
 Version: 2.0
 Depends: libc, adguardhome
 License: Apache-2.0
@@ -79,6 +91,17 @@ Filename: luci-app-nodogsplash_1.0_all.ipk
 Size: 4151
 SHA256sum: 339732f07e8c0f06abcb24a063f2cd4452622e7832e3d753bbe4c33399b21653
 Description:  LuCI support for nodogsplash
+
+Package: luci-app-squid-adv
+Version: 1.0.1
+Depends: libc, squid, lua-cjson, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 9197
+Filename: luci-app-squid-adv_1.0.1_all.ipk
+Size: 10052
+SHA256sum: 331cb7c599e02b7ae697c52f14108900832c6200074f1c8b8b988ab16966fadb
+Description:  Better LuCI support for Squid
 
 Package: luci-app-squid-adv
 Version: 1.0
