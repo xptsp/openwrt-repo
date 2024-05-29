@@ -34,22 +34,6 @@ SHA256sum: f483abda9bbd4097a9a9a8d4c6846170ddd073000a99f555cffa09434e8d9588
 Description:  bcrypt-tool is a dandy CLI tool for generating and matching bcrypt hashes
 
 Package: luci-app-adguardhome
-Version: 1.0
-Depends: libc, adguardhome, luci-lib-jsonc, luasocket, lyaml
-Source: feeds/xptsp/luci-app-adguardhome
-SourceName: luci-app-adguardhome
-License: Apache-2.0
-Section: luci
-SourceDateEpoch: 1715690820
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 5212
-Filename: luci-app-adguardhome_1.0_all.ipk
-Size: 6041
-SHA256sum: d40fc51862f9bbec91e2ca959e543428ae9e34642d5c0dac73a4a678e681df42
-Description:  LuCI support for AdguardHome
-
-Package: luci-app-adguardhome
 Version: 2.0.1
 Depends: libc, adguardhome, luci-base
 Source: feeds/xptsp/src/luci-app-adguardhome
@@ -63,22 +47,6 @@ Installed-Size: 4770
 Filename: luci-app-adguardhome_2.0.1_all.ipk
 Size: 5606
 SHA256sum: 9ec6dabb871f0b138d6482096b73a56a93720e3ffb1321e9500a8c1c4a7c915c
-Description:  LuCI support for AdguardHome
-
-Package: luci-app-adguardhome
-Version: 2.0
-Depends: libc, adguardhome
-Source: feeds/xptsp/src/luci-app-adguardhome
-SourceName: luci-app-adguardhome
-License: Apache-2.0
-Section: luci
-SourceDateEpoch: 1716459385
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 4770
-Filename: luci-app-adguardhome_2.0_all.ipk
-Size: 5600
-SHA256sum: 49dd6132924e5c730bfbefefaaa0ef33eb2b45de124899252a5efd36d3f4ce84
 Description:  LuCI support for AdguardHome
 
 Package: luci-app-argon-config
@@ -111,21 +79,6 @@ Size: 4160
 SHA256sum: 9440b721c55b6307f483a5281738127096fd0bcdf206731b2e5a1ef7a0cc49fc
 Description:  LuCI support for nodogsplash
 
-Package: luci-app-nodogsplash
-Version: 1.0
-Depends: libc, nodogsplash, luci-lua-runtime
-Source: /home/doug/Storage/GitHub/openwrt-xptsp-src/luci-app-nodogsplash
-SourceName: luci-app-nodogsplash
-Section: luci
-SourceDateEpoch: 1697720365
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 3293
-Filename: luci-app-nodogsplash_1.0_all.ipk
-Size: 4151
-SHA256sum: 339732f07e8c0f06abcb24a063f2cd4452622e7832e3d753bbe4c33399b21653
-Description:  LuCI support for nodogsplash
-
 Package: luci-app-squid-adv
 Version: 1.0.1
 Depends: libc, squid, lua-cjson, luci-lua-runtime
@@ -139,21 +92,6 @@ Installed-Size: 9197
 Filename: luci-app-squid-adv_1.0.1_all.ipk
 Size: 10052
 SHA256sum: 331cb7c599e02b7ae697c52f14108900832c6200074f1c8b8b988ab16966fadb
-Description:  Better LuCI support for Squid
-
-Package: luci-app-squid-adv
-Version: 1.0
-Depends: libc, squid, lua-cjson, luci-lua-runtime
-Source: feeds/dougwrt/luci-app-squid-adv
-SourceName: luci-app-squid-adv
-Section: luci
-SourceDateEpoch: 1715438804
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 9196
-Filename: luci-app-squid-adv_1.0_all.ipk
-Size: 10050
-SHA256sum: fe0ff90d2d90b54fe51d7bc37b4b6b0cf5047d491e586af4b714228d7adbf2bd
 Description:  Better LuCI support for Squid
 
 Package: luci-theme-argon
