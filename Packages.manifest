@@ -94,21 +94,21 @@ Size: 10052
 SHA256sum: 331cb7c599e02b7ae697c52f14108900832c6200074f1c8b8b988ab16966fadb
 Description:  Better LuCI support for Squid
 
-Package: luci-mod-network-ports
+Package: luci-mod-listening-ports
 Version: 1.0
 Depends: libc, luci-base
-Source: feeds/xptsp/src/luci-mod-network-ports
-SourceName: luci-mod-network-ports
+Source: package/feeds/xptsp/luci-mod-listening-ports
+SourceName: luci-mod-listening-ports
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1717277020
+SourceDateEpoch: 1717633083
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1411
-Filename: luci-mod-network-ports_1.0_all.ipk
-Size: 2232
-SHA256sum: d18ac61a293ba5027dd2e806491027d746154e997d364d2f638fb769c68a9075
-Description:  Network Ports Status screen for LuCI 
+Installed-Size: 1413
+Filename: luci-mod-listening-ports_1.0_all.ipk
+Size: 2226
+SHA256sum: 12425c973cada87029037ba82f93897b024f5f36cd0beb1871c34077c343280b
+Description:  Listening Ports for LuCI 
 
 Package: luci-theme-argon
 Version: 2.3.1
