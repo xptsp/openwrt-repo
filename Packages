@@ -1,9 +1,14 @@
 Package: adguardhome
 Version: 0.107.51-r1
 Depends: libc, ca-bundle
+Source: feeds/packages/net/adguardhome
+SourceName: adguardhome
 License: GPL-3.0-only
+LicenseFiles: LICENSE.txt
 Section: net
+SourceDateEpoch: 1718099104
 URL: https://github.com/AdguardTeam/AdGuardHome
+Maintainer: Dobroslaw Kijowski <dobo90@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 31088640
 Filename: adguardhome_0.107.51-r1_aarch64_cortex-a53.ipk
@@ -14,8 +19,13 @@ Description:  Free and open source, powerful network-wide ads and trackers block
 Package: bcrypt-tool
 Version: 1.1.6-1
 Depends: libc
+Source: feeds/xptsp/bcrypt-tool
+SourceName: bcrypt-tool
 License: GPL-2.0-only
+LicenseFiles: LICENSE
 Section: utils
+SourceDateEpoch: 1715422539
+Maintainer: Marcel Vital <ralmina@tuta.io>
 Architecture: aarch64_cortex-a53
 Installed-Size: 573349
 Filename: bcrypt-tool_1.1.6-1_aarch64_cortex-a53.ipk
@@ -26,8 +36,12 @@ Description:  bcrypt-tool is a dandy CLI tool for generating and matching bcrypt
 Package: luci-app-adguardhome
 Version: 2.0.1
 Depends: libc, adguardhome, luci-base
+Source: feeds/xptsp/src/luci-app-adguardhome
+SourceName: luci-app-adguardhome
 License: Apache-2.0
 Section: luci
+SourceDateEpoch: 1716471013
+Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 4770
 Filename: luci-app-adguardhome_2.0.1_all.ipk
@@ -38,7 +52,11 @@ Description:  LuCI support for AdguardHome
 Package: luci-app-argon-config
 Version: 0.9
 Depends: libc, luci-compat
+Source: /home/runner/work/gl-sdk-action/gl-sdk-action/buildsource/luci-app-argon-config
+SourceName: luci-app-argon-config
 Section: luci
+SourceDateEpoch: 1650782942
+Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3586
 Filename: luci-app-argon-config_0.9_all.ipk
@@ -49,7 +67,11 @@ Description:  LuCI page for Argon Config
 Package: luci-app-nodogsplash
 Version: 1.0.1
 Depends: libc, nodogsplash, luci-lua-runtime
+Source: /home/doug/Storage/GitHub/openwrt-packages/luci-app-nodogsplash
+SourceName: luci-app-nodogsplash
 Section: luci
+SourceDateEpoch: 1697931527
+Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 3301
 Filename: luci-app-nodogsplash_1.0.1_all.ipk
@@ -60,7 +82,11 @@ Description:  LuCI support for nodogsplash
 Package: luci-app-squid-adv
 Version: 1.0.1
 Depends: libc, squid, lua-cjson, luci-lua-runtime
+Source: feeds/xptsp/src/luci-app-squid-adv
+SourceName: luci-app-squid-adv
 Section: luci
+SourceDateEpoch: 1716585575
+Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 9197
 Filename: luci-app-squid-adv_1.0.1_all.ipk
@@ -71,8 +97,12 @@ Description:  Better LuCI support for Squid
 Package: luci-mod-listening-ports
 Version: 1.0
 Depends: libc, luci-base
+Source: package/feeds/xptsp/luci-mod-listening-ports
+SourceName: luci-mod-listening-ports
 License: Apache-2.0
 Section: luci
+SourceDateEpoch: 1717633083
+Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1413
 Filename: luci-mod-listening-ports_1.0_all.ipk
@@ -83,7 +113,11 @@ Description:  Listening Ports for LuCI
 Package: luci-theme-argon
 Version: 2.3.1
 Depends: libc, curl, jsonfilter
+Source: package/downloads/luci-theme-argon
+SourceName: luci-theme-argon
 Section: luci
+SourceDateEpoch: 1703323219
+Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 389621
 Filename: luci-theme-argon_2.3.1_all.ipk
