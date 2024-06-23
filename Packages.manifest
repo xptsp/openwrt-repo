@@ -34,19 +34,19 @@ SHA256sum: f483abda9bbd4097a9a9a8d4c6846170ddd073000a99f555cffa09434e8d9588
 Description:  bcrypt-tool is a dandy CLI tool for generating and matching bcrypt hashes
 
 Package: luci-app-adguardhome
-Version: 2.0.1
+Version: 2.0.2
 Depends: libc, adguardhome, luci-base
 Source: feeds/xptsp/src/luci-app-adguardhome
 SourceName: luci-app-adguardhome
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1716471013
+SourceDateEpoch: 1718842195
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 4770
-Filename: luci-app-adguardhome_2.0.1_all.ipk
-Size: 5606
-SHA256sum: 9ec6dabb871f0b138d6482096b73a56a93720e3ffb1321e9500a8c1c4a7c915c
+Installed-Size: 4795
+Filename: luci-app-adguardhome_2.0.2_all.ipk
+Size: 5633
+SHA256sum: 8ea89b5a13a3ff55712c9a44b3f1189749daaea70ba1e4c9276f787cdf7e55ef
 Description:  LuCI support for AdguardHome
 
 Package: luci-app-argon-config
