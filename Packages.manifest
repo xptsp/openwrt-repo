@@ -65,18 +65,18 @@ SHA256sum: bd8c055b33cd01d70aea9946c0ed3b69e2ea780181783332afa086b2864affd5
 Description:  LuCI page for Argon Config
 
 Package: luci-app-nodogsplash
-Version: 1.0.1
-Depends: libc, nodogsplash, luci-lua-runtime
-Source: /home/doug/Storage/GitHub/openwrt-packages/luci-app-nodogsplash
+Version: 2.0
+Depends: libc, nodogsplash, luci-base
+Source: package/feeds/xptsp/luci-app-nodogsplash
 SourceName: luci-app-nodogsplash
 Section: luci
-SourceDateEpoch: 1697931527
+SourceDateEpoch: 1718442767
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3301
-Filename: luci-app-nodogsplash_1.0.1_all.ipk
-Size: 4160
-SHA256sum: 9440b721c55b6307f483a5281738127096fd0bcdf206731b2e5a1ef7a0cc49fc
+Installed-Size: 5146
+Filename: luci-app-nodogsplash_2.0_all.ipk
+Size: 5955
+SHA256sum: 87cd4e1e1a0f6727b24623e47659b6edddc3ef857e1395ff73adb1ba6734cdcb
 Description:  LuCI support for nodogsplash
 
 Package: luci-app-squid-adv
