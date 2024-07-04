@@ -126,17 +126,17 @@ SHA256sum: 2b3820261c9e98fd1a2ad6bf62162ae5f4beaba14d7393c3b77a0e3927864e07
 Description:  Argon Theme
 
 Package: saned-initd
-Version: 1.0-1
+Version: 1.1-1
 Depends: libc, sane-daemon
-Source: package/feeds/xptsp/saned-initd
+Source: feeds/xptsp/src/openwrt-saned-initd
 SourceName: saned-initd
 License: GPL-3.0-or-later
 Section: utils
-SourceDateEpoch: 1700936337
+SourceDateEpoch: 1720101883
 Architecture: all
-Installed-Size: 377
-Filename: saned-initd_1.0-1_all.ipk
-Size: 1085
-SHA256sum: 03d0661aad00b1235eb035aaf4d9df94820ad4a23a80a2d954417b5be61e86e7
+Installed-Size: 321
+Filename: saned-initd_1.1-1_all.ipk
+Size: 1038
+SHA256sum: 6597760f0d7f0e8024a39e92f5aa134232277a69b83ebad3c4d4df43b9eaff2a
 Description:  init.d script to start the SANED service
 
