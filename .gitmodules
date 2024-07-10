@@ -25,3 +25,6 @@
 [submodule "src/openwrt-peanut"]
 	path = src/openwrt-peanut
 	url = https://github.com/xptsp/openwrt-peanut
+[submodule "src/openwrt-privoxy-blocklist"]
+	path = src/openwrt-privoxy-blocklist
+	url = https://github.com/xptsp/openwrt-privoxy-blocklist
