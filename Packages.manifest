@@ -33,6 +33,22 @@ Size: 573144
 SHA256sum: f483abda9bbd4097a9a9a8d4c6846170ddd073000a99f555cffa09434e8d9588
 Description:  bcrypt-tool is a dandy CLI tool for generating and matching bcrypt hashes
 
+Package: e2guardian
+Version: 5.5.6r-1
+Depends: libc, libpthread, libstdcpp6, zlib, libpcre, libopenssl3
+Source: package/feeds/xptsp/e2guardian
+SourceName: e2guardian
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1711145382
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 633529
+Filename: e2guardian_5.5.6r-1_aarch64_cortex-a53.ipk
+Size: 633249
+SHA256sum: 3e8c240f0bdbf65d32c7a6713866bf0963ac41f2e5805394ec5e714329a878f3
+Description:  E2Guardian
+
 Package: luci-app-adguardhome
 Version: 2.0.2
 Depends: libc, adguardhome, luci-base

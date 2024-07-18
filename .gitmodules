@@ -28,3 +28,6 @@
 [submodule "src/privoxy-blocklist"]
 	path = src/privoxy-blocklist
 	url = https://github.com/xptsp/openwrt-privoxy-blocklist
+[submodule "src/e2guardian"]
+	path = src/e2guardian
+	url = https://github.com/xptsp/openwrt-e2guardian
