@@ -17,20 +17,20 @@ SHA256sum: a17e8ddaf9ec46cf52ec0fd4a6d3c54035cb309eff7585a0c5ef75c56733aedd
 Description:  Free and open source, powerful network-wide ads and trackers blocking DNS server.
 
 Package: bcrypt-tool
-Version: 1.1.6-1
+Version: 1.1.6-2
 Depends: libc
-Source: feeds/xptsp/bcrypt-tool
+Source: feeds/xptsp/src/bcrypt-tool
 SourceName: bcrypt-tool
 License: GPL-2.0-only
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1715422539
-Maintainer: Marcel Vital <ralmina@tuta.io>
+SourceDateEpoch: 1721516619
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 573349
-Filename: bcrypt-tool_1.1.6-1_aarch64_cortex-a53.ipk
+Installed-Size: 573348
+Filename: bcrypt-tool_1.1.6-2_aarch64_cortex-a53.ipk
 Size: 573144
-SHA256sum: f483abda9bbd4097a9a9a8d4c6846170ddd073000a99f555cffa09434e8d9588
+SHA256sum: 4fddac2bd604e1242fd46f7ac1143f093b443201e9fecdb1bd74b65b2e41e862
 Description:  bcrypt-tool is a dandy CLI tool for generating and matching bcrypt hashes
 
 Package: e2guardian
@@ -56,13 +56,13 @@ Source: feeds/xptsp/src/luci-app-adguardhome
 SourceName: luci-app-adguardhome
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1718842195
+SourceDateEpoch: 1721516767
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 4795
+Installed-Size: 4794
 Filename: luci-app-adguardhome_2.0.2_all.ipk
-Size: 5633
-SHA256sum: 8ea89b5a13a3ff55712c9a44b3f1189749daaea70ba1e4c9276f787cdf7e55ef
+Size: 5629
+SHA256sum: 527dac60191c4f3b0e51cc343ea430da394b019135fb9d0fa5f3ece64df4f1ea
 Description:  LuCI support for AdguardHome
 
 Package: luci-app-argon-config
@@ -86,44 +86,44 @@ Depends: libc, nodogsplash, luci-base
 Source: feeds/xptsp/src/luci-app-nodogsplash
 SourceName: luci-app-nodogsplash
 Section: luci
-SourceDateEpoch: 1721258978
+SourceDateEpoch: 1721516774
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 5144
+Installed-Size: 5143
 Filename: luci-app-nodogsplash_2.0.1_all.ipk
-Size: 5962
-SHA256sum: 20adaf4b353c651d446372ddce9b83d71951ad4d018d6e7ebf5244c0f02d59a7
+Size: 5960
+SHA256sum: ba3c3fd150c4781772704e6d48ba824efb7528c2d5f69e34f4ed50fd42e82564
 Description:  LuCI support for nodogsplash
 
 Package: luci-app-squid-adv
 Version: 1.0.1
-Depends: libc, squid, lua-cjson, luci-lua-runtime
+Depends: libc, squid, luci-base, lua-cjson, luci-lua-runtime
 Source: feeds/xptsp/src/luci-app-squid-adv
 SourceName: luci-app-squid-adv
 Section: luci
-SourceDateEpoch: 1716585575
+SourceDateEpoch: 1721516781
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 9197
+Installed-Size: 9196
 Filename: luci-app-squid-adv_1.0.1_all.ipk
 Size: 10052
-SHA256sum: 331cb7c599e02b7ae697c52f14108900832c6200074f1c8b8b988ab16966fadb
+SHA256sum: 3d615ce14a974d219ed85e3da664db72f18bbd8e40010ddd2d60651f181e5b92
 Description:  Better LuCI support for Squid
 
 Package: luci-mod-listening-ports
 Version: 1.0
 Depends: libc, luci-base
-Source: package/feeds/xptsp/luci-mod-listening-ports
+Source: feeds/xptsp/src/luci-mod-listening-ports
 SourceName: luci-mod-listening-ports
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1717633083
+SourceDateEpoch: 1721516788
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1413
+Installed-Size: 1417
 Filename: luci-mod-listening-ports_1.0_all.ipk
-Size: 2226
-SHA256sum: 12425c973cada87029037ba82f93897b024f5f36cd0beb1871c34077c343280b
+Size: 2234
+SHA256sum: 4660254c6bd704bb24e1e32f359edee6c67b73604b49306c4d3846146d164ba4
 Description:  Listening Ports for LuCI 
 
 Package: luci-theme-argon
@@ -142,33 +142,35 @@ SHA256sum: 2b3820261c9e98fd1a2ad6bf62162ae5f4beaba14d7393c3b77a0e3927864e07
 Description:  Argon Theme
 
 Package: peanut
-Version: 1.0-2
+Version: 1.0-3
 Depends: libc, bash
 Source: feeds/xptsp/src/peanut
 SourceName: peanut
 License: GPL-3.0-or-later
 Section: utils
-SourceDateEpoch: 1721272354
+SourceDateEpoch: 1721516743
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
-Installed-Size: 800
-Filename: peanut_1.0-2_all.ipk
-Size: 1550
-SHA256sum: 08a5a9c7f186d1344b56f6bbda3e058148f08a9e536a94d14522b12708834915
+Installed-Size: 799
+Filename: peanut_1.0-3_all.ipk
+Size: 1583
+SHA256sum: e8b12b2867b782dfd28657b301e093d00138be25b8213b614c31c42a22c46c2c
 Description:  Script to list all ports that the OS is listening on, sorted by IPv4 and IPv6, then port number (ascending).
 
 Package: privoxy-blocklist
-Version: 0.4.0-3
+Version: 0.4.0-4
 Depends: libc, bash, grep, privoxy, sed, wget-ssl
 Source: feeds/xptsp/src/privoxy-blocklist
 SourceName: privoxy-blocklist
 License: unlicense
 Section: utils
-SourceDateEpoch: 1721249804
+SourceDateEpoch: 1721516751
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
-Installed-Size: 7271
-Filename: privoxy-blocklist_0.4.0-3_all.ipk
-Size: 8206
-SHA256sum: 9aa0fea3254391e969eb0636acb23ad1a04edd54990dbc3c815bc428813cf224
+Installed-Size: 7270
+Filename: privoxy-blocklist_0.4.0-4_all.ipk
+Size: 8237
+SHA256sum: 170cc3a8092bfda9450a175042888be0ea9f422eb3eb75a8588611529fc3d450
 Description:  The script privoxy-blocklist.sh downloads AdBlock Plus filter files and generates privoxy
  compatible filter and action files based on these. After the generation is done it modifies 
  the privoxy configuration files /etc/privoxy/config to import the generated files.
@@ -176,17 +178,18 @@ Description:  The script privoxy-blocklist.sh downloads AdBlock Plus filter file
  Due to this behaviour the script must run as root user to be able to modify the privoxy configuration file.
 
 Package: saned-initd
-Version: 1.1-1
+Version: 1.1-2
 Depends: libc, sane-daemon
-Source: feeds/xptsp/src/openwrt-saned-initd
+Source: feeds/xptsp/src/saned-initd
 SourceName: saned-initd
 License: GPL-3.0-or-later
 Section: utils
-SourceDateEpoch: 1720101883
+SourceDateEpoch: 1721516759
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
-Installed-Size: 321
-Filename: saned-initd_1.1-1_all.ipk
-Size: 1038
-SHA256sum: 6597760f0d7f0e8024a39e92f5aa134232277a69b83ebad3c4d4df43b9eaff2a
+Installed-Size: 320
+Filename: saned-initd_1.1-2_all.ipk
+Size: 1067
+SHA256sum: 7c2100a7ffa7a758dbec00728b06a5a899bec368b80beafbbf31f56699287333
 Description:  init.d script to start the SANED service
 
