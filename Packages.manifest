@@ -34,20 +34,21 @@ SHA256sum: 4fddac2bd604e1242fd46f7ac1143f093b443201e9fecdb1bd74b65b2e41e862
 Description:  bcrypt-tool is a dandy CLI tool for generating and matching bcrypt hashes
 
 Package: e2guardian
-Version: 5.5.6r-1
+Version: 5.5.6r-2
 Depends: libc, libpthread, libstdcpp6, zlib, libpcre, libopenssl3
-Source: package/feeds/xptsp/e2guardian
+Source: feeds/xptsp/src/e2guardian
 SourceName: e2guardian
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1711145382
-Maintainer: Luka Perkov <luka@openwrt.org>
+SourceDateEpoch: 1721510945
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 633529
-Filename: e2guardian_5.5.6r-1_aarch64_cortex-a53.ipk
-Size: 633249
-SHA256sum: 3e8c240f0bdbf65d32c7a6713866bf0963ac41f2e5805394ec5e714329a878f3
-Description:  E2Guardian
+Installed-Size: 633586
+Filename: e2guardian_5.5.6r-2_aarch64_cortex-a53.ipk
+Size: 633569
+SHA256sum: c42e8a07b6430f5da59a0f2778be3e03c71819806558632e6cc01cb14d1437d9
+Description:  e2guardian is an Open Source web content filter, It filters the actual content of pages based on many methods 
+ including phrase matching, request  header and URL filtering, etc. It does not purely filter based on a banned list of sites
 
 Package: luci-app-adguardhome
 Version: 2.0.2
