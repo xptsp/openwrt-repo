@@ -113,20 +113,20 @@ SHA256sum: 3d615ce14a974d219ed85e3da664db72f18bbd8e40010ddd2d60651f181e5b92
 Description:  Better LuCI support for Squid
 
 Package: luci-mod-listening-ports
-Version: 1.0
-Depends: libc, luci-base
+Version: 1.0-3
+Depends: libc, luci-base, bash
 Source: feeds/xptsp/src/luci-mod-listening-ports
 SourceName: luci-mod-listening-ports
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1721516788
-Maintainer: OpenWrt LuCI community
+SourceDateEpoch: 1721835628
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
-Installed-Size: 1417
-Filename: luci-mod-listening-ports_1.0_all.ipk
-Size: 2234
-SHA256sum: 4660254c6bd704bb24e1e32f359edee6c67b73604b49306c4d3846146d164ba4
-Description:  Listening Ports for LuCI 
+Installed-Size: 1631
+Filename: luci-mod-listening-ports_1.0-3_all.ipk
+Size: 2381
+SHA256sum: 9ec777213f5dbd589d7409c68734c5afc14a4909430c60d6588adbc41584e767
+Description:  Shows Server Listening Ports for LuCI 
 
 Package: luci-theme-argon
 Version: 2.3.1
