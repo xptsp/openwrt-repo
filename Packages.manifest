@@ -112,6 +112,22 @@ Size: 10052
 SHA256sum: 3d615ce14a974d219ed85e3da664db72f18bbd8e40010ddd2d60651f181e5b92
 Description:  Better LuCI support for Squid
 
+Package: luci-app-ympd
+Version: 1.0-1
+Depends: libc, luci-base, ympd
+Source: feeds/xptsp/src/luci-app-ympd
+SourceName: luci-app-ympd
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1721939533
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: all
+Installed-Size: 1096
+Filename: luci-app-ympd_1.0-1_all.ipk
+Size: 1839
+SHA256sum: 10e0e3d2a3ed36e55a5dd0930c82ceb81269cd4835832f922773dd0d4996ba3d
+Description:  LuCI Support for YMPD 
+
 Package: luci-mod-listening-ports
 Version: 1.0-3
 Depends: libc, luci-base, bash
@@ -196,17 +212,17 @@ SHA256sum: 7c2100a7ffa7a758dbec00728b06a5a899bec368b80beafbbf31f56699287333
 Description:  init.d script to start the SANED service
 
 Package: ympd
-Version: 1.2.3-2
+Version: 1.2.3-3
 Depends: libc, libmpdclient, libpthread, libopenssl3
 Source: feeds/xptsp/src/ympd
 SourceName: ympd
 Section: utils
-SourceDateEpoch: 1721875092
+SourceDateEpoch: 1721938796
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 338927
-Filename: ympd_1.2.3-2_aarch64_cortex-a53.ipk
-Size: 339303
-SHA256sum: 48a243a80f6627df68b1cd573b2977fbb232160351d09afdeda4922eef84b5a2
+Installed-Size: 339088
+Filename: ympd_1.2.3-3_aarch64_cortex-a53.ipk
+Size: 339467
+SHA256sum: 304eee9d02fa742ca6bd5a1604b58ae97b02f0dd4f80f1b7a7c8a336ff3c420d
 Description:  MPD Web GUI - written in C, utilizing Websockets and Bootstrap/JS
 

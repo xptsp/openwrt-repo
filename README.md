@@ -23,6 +23,7 @@ All source for packages (except for AdGuardHome and argon-related packages) are 
 | [privoxy-blocklist](https://github.com/xptsp/openwrt-privoxy-blocklist) | Privoxy-Blocklist script for OpenWrt |
 | [saned-initd](https://github.com/xptsp/openwrt-saned-initd) | init.d script for SANED |
 | [ympd](https://github.com/xptsp/openwrt-ympd) | Package to build ympd for OpenWRT |
+| [luci-app-ympd](https://github.com/xptsp/luci-app-ympd) | Package for luci-app-ympd for OpenWRT |
 
 ## Instructions
 

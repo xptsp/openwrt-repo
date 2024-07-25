@@ -4,7 +4,7 @@
 cd $(dirname $0)
 ls ~/Compile/ipks/*.ipk 2> /dev/null | grep -v argon | while read FILE; do
 	NAME=$(basename $FILE | cut -d_ -f 1)
-	rm ${NAME}_*.ipk
+	rm ${NAME}_*.ipk 2> /dev/null
 	mv ${FILE} ./
 done
 chmod -x *.ipk
