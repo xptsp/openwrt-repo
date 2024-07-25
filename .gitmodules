@@ -25,3 +25,6 @@
 [submodule "src/e2guardian"]
 	path = src/e2guardian
 	url = https://github.com/xptsp/openwrt-e2guardian
+[submodule "src/ympd"]
+	path = src/ympd
+	url = https://github.com/xptsp/openwrt-ympd

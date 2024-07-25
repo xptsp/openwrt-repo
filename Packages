@@ -195,3 +195,18 @@ Size: 1067
 SHA256sum: 7c2100a7ffa7a758dbec00728b06a5a899bec368b80beafbbf31f56699287333
 Description:  init.d script to start the SANED service
 
+Package: ympd
+Version: 1.2.3
+Depends: libc, libmpdclient, libpthread, libopenssl3
+Source: package/feeds/xptsp/ympd
+SourceName: ympd
+Section: utils
+SourceDateEpoch: 1721875201
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 361217
+Filename: ympd_1.2.3_aarch64_cortex-a53.ipk
+Size: 361522
+SHA256sum: 11b611c2d297d4219049a5b9cece3febd9db1dc391f19876839cc4a2f889d582
+Description:  MPD Web GUI - written in C, utilizing Websockets and Bootstrap/JS
+
