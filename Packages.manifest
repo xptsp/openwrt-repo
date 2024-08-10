@@ -98,19 +98,20 @@ SHA256sum: 356ca0426950e707e1f4435d5c162bf430a87f5055e3c6f7ffddd49014ed21e3
 Description:  LuCI Support for nodogsplash
 
 Package: luci-app-squid-adv
-Version: 1.0.1
-Depends: libc, squid, luci-base, lua-cjson, luci-lua-runtime
+Version: 2.0-1
+Depends: libc, squid, luci-base
 Source: feeds/xptsp/src/luci-app-squid-adv
 SourceName: luci-app-squid-adv
+License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1721516781
-Maintainer: OpenWrt LuCI community
+SourceDateEpoch: 1723281515
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
-Installed-Size: 9196
-Filename: luci-app-squid-adv_1.0.1_all.ipk
-Size: 10052
-SHA256sum: 3d615ce14a974d219ed85e3da664db72f18bbd8e40010ddd2d60651f181e5b92
-Description:  Better LuCI support for Squid
+Installed-Size: 8680
+Filename: luci-app-squid-adv_2.0-1_all.ipk
+Size: 9466
+SHA256sum: 6e415e01987552cc8d2e7d2735b2176eaad684a853858c637d976eaf4f8327a5
+Description:  LuCI Support for Squid, complete with Transparent Proxy support for both HTTP and HTTPS!
 
 Package: luci-app-ympd
 Version: 1.0-1
