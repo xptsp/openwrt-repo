@@ -98,7 +98,7 @@ SHA256sum: 356ca0426950e707e1f4435d5c162bf430a87f5055e3c6f7ffddd49014ed21e3
 Description:  LuCI Support for nodogsplash
 
 Package: luci-app-squid-adv
-Version: 2.0-1
+Version: 2.1-1
 Depends: libc, squid, luci-base
 Source: feeds/xptsp/src/luci-app-squid-adv
 SourceName: luci-app-squid-adv
@@ -107,10 +107,10 @@ Section: luci
 SourceDateEpoch: 1723281515
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
-Installed-Size: 8680
-Filename: luci-app-squid-adv_2.0-1_all.ipk
-Size: 9466
-SHA256sum: 6e415e01987552cc8d2e7d2735b2176eaad684a853858c637d976eaf4f8327a5
+Installed-Size: 17222
+Filename: luci-app-squid-adv_2.1-1_all.ipk
+Size: 18059
+SHA256sum: 81e4052816f681a6109f2bf2347da06e9dea36dcd05c97fa93ce47cf8b8e696b
 Description:  LuCI Support for Squid, complete with Transparent Proxy support for both HTTP and HTTPS!
 
 Package: luci-app-ympd
