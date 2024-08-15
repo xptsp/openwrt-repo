@@ -16,22 +16,6 @@ Size: 9837082
 SHA256sum: a17e8ddaf9ec46cf52ec0fd4a6d3c54035cb309eff7585a0c5ef75c56733aedd
 Description:  Free and open source, powerful network-wide ads and trackers blocking DNS server.
 
-Package: bcrypt-js
-Version: 2.4.0-1
-Depends: libc
-Source: feeds/xptsp/src/bcrypt-js
-SourceName: bcrypt-js
-License: Apache-2.0
-Section: utils
-SourceDateEpoch: 1721081658
-Maintainer: Douglas Orend <doug.orend2@gmail.com>
-Architecture: all
-Installed-Size: 9551
-Filename: bcrypt-js_2.4.0-1_all.ipk
-Size: 10311
-SHA256sum: d172689780dc69698fe2b8672e47318e3ec5b6322d1aa214f68720abc311bed3
-Description:  Optimized bcrypt in plain JavaScript with zero dependencies.
-
 Package: bcrypt-tool
 Version: 1.1.6-2
 Depends: libc
