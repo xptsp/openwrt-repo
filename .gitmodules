@@ -31,3 +31,6 @@
 [submodule "src/luci-app-ympd"]
 	path = src/luci-app-ympd
 	url = https://github.com/xptsp/luci-app-ympd
+[submodule "src/bcrypt-js"]
+	path = src/openwrt-bcrypt-js
+	url = https://github.com/xptsp/bcrypt-js
