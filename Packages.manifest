@@ -212,6 +212,22 @@ Size: 1067
 SHA256sum: 7c2100a7ffa7a758dbec00728b06a5a899bec368b80beafbbf31f56699287333
 Description:  init.d script to start the SANED service
 
+Package: twin-bcrypt-js
+Version: 2.2.0-1
+Depends: libc
+Source: feeds/xptsp/src/twin-bcrypt-js
+SourceName: twin-bcrypt-js
+License: unlicense
+Section: utils
+SourceDateEpoch: 1721081658
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: all
+Installed-Size: 9955
+Filename: twin-bcrypt-js_2.2.0-1_all.ipk
+Size: 10684
+SHA256sum: 6fd2c1c7b431f16938df3e63e92e282ea997ef9da87a7cf8335ab71939a16ff2
+Description:  twin-bcrypt-js
+
 Package: ympd
 Version: 1.2.3-3
 Depends: libc, libmpdclient, libpthread, libopenssl3
