@@ -17,13 +17,14 @@ All source for packages (except for AdGuardHome and argon-related packages) are 
 | [luci-app-adguardhome](https://github.com/xptsp/luci-app-adguardhome) | Package for luci-app-adguardhome for OpenWRT |
 | [luci-app-nodogsplash](https://github.com/xptsp/luci-app-nodogsplash) | Package for luci-app-nodogsplash for OpenWRT |
 | [luci-app-squid-adv](https://github.com/xptsp/luci-app-squid-adv) | Maybe the best LuCI package to configure Squid? |
+| [luci-app-ympd](https://github.com/xptsp/luci-app-ympd) | Package for luci-app-ympd for OpenWRT |
 | [luci-mod-listening-ports](https://github.com/xptsp/luci-mod-listening-ports) | LuCI app to show Server Listening Ports |
 | [luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon/tree/f2eb62b34b6be806297ec69dbda7ffb96e16a566) | Argon is a clean and tidy OpenWrt LuCI theme |
 | [peanut](https://github.com/xptsp/openwrt-peanut) | Script that lists the IPv4 and IPv6 connections the server is listening on |
 | [privoxy-blocklist](https://github.com/xptsp/openwrt-privoxy-blocklist) | Privoxy-Blocklist script for OpenWrt |
 | [saned-initd](https://github.com/xptsp/openwrt-saned-initd) | init.d script for SANED |
+| [twin-bcrypt-js](https://github.com/xptsp/openwrt-twin-bcrypt-js) | twin-bcrypt-js packaged for OpenWRT |
 | [ympd](https://github.com/xptsp/openwrt-ympd) | Package to build ympd for OpenWRT |
-| [luci-app-ympd](https://github.com/xptsp/luci-app-ympd) | Package for luci-app-ympd for OpenWRT |
 
 ## Instructions
 
