@@ -114,19 +114,19 @@ SHA256sum: b69d7d114511e0e4590b97ec7dc13c1239a2d4fc8fe529214db0ce771c18f07e
 Description:  LuCI Support for Squid, complete with Transparent Proxy support for both HTTP and HTTPS!
 
 Package: luci-app-ympd
-Version: 1.0-1
+Version: 1.1-1
 Depends: libc, luci-base, ympd
 Source: feeds/xptsp/src/luci-app-ympd
 SourceName: luci-app-ympd
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1721939533
+SourceDateEpoch: 1725022777
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
-Installed-Size: 1096
-Filename: luci-app-ympd_1.0-1_all.ipk
-Size: 1839
-SHA256sum: 10e0e3d2a3ed36e55a5dd0930c82ceb81269cd4835832f922773dd0d4996ba3d
+Installed-Size: 1473
+Filename: luci-app-ympd_1.1-1_all.ipk
+Size: 2216
+SHA256sum: f8137ebe680e0092de64fadaff0e57872841c3b949c86799ffc750ac35a5db68
 Description:  LuCI Support for YMPD 
 
 Package: luci-mod-listening-ports
