@@ -51,19 +51,19 @@ Description:  e2guardian is an Open Source web content filter, It filters the ac
  including phrase matching, request  header and URL filtering, etc. It does not purely filter based on a banned list of sites
 
 Package: luci-app-adguardhome
-Version: 2.1-1
-Depends: libc, adguardhome, luci-base, twin-bcrypt-js
+Version: 2.2-r1
+Depends: libc, adguardhome, luci-base, twin-bcrypt-js, curl
 Source: feeds/xptsp/src/luci-app-adguardhome
 SourceName: luci-app-adguardhome
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1724629394
+SourceDateEpoch: 1744756127
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
-Installed-Size: 5686
-Filename: luci-app-adguardhome_2.1-1_all.ipk
-Size: 6451
-SHA256sum: cb49e037bce3876e4575642880ec5c8a86866b90b6533422a6e01eceaa8fc40d
+Installed-Size: 30720
+Filename: luci-app-adguardhome_2.2-r1_all.ipk
+Size: 6582
+SHA256sum: 8a7e3acf6d1eb3e4fa327e0bd37344fa2ab9c80765cc536c4a2e36e64e7b9019
 Description:  LuCI Support for AdGuardHome
 
 Package: luci-app-argon-config
