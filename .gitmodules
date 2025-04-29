@@ -34,6 +34,6 @@
 [submodule "src/twin-bcrypt-js"]
 	path = src/twin-bcrypt-js
 	url = https://github.com/xptsp/openwrt-twin-bcrypt-js
-[submodule "src/openwrt-reddragon-webservices"]
-	path = src/openwrt-reddragon-webservices
+[submodule "src/reddragon-webservices"]
+	path = src/reddragon-webservices
 	url = https://github.com/xptsp/openwrt-reddragon-webservices

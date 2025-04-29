@@ -197,7 +197,7 @@ Description:  The script privoxy-blocklist.sh downloads AdBlock Plus filter file
  Due to this behaviour the script must run as root user to be able to modify the privoxy configuration file.
 
 Package: reddragon-webservices
-Version: 0.1-r1
+Version: 0.2-r1
 Depends: libc, luci-theme-argon, bash
 Source: feeds/base/feeds/openwrt-reddragon-webservices
 SourceName: reddragon-webservices
@@ -207,9 +207,9 @@ SourceDateEpoch: 1745883532
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
 Installed-Size: 256000
-Filename: reddragon-webservices_0.1-r1_all.ipk
-Size: 93094
-SHA256sum: 15d128d7808aba2245c604d17bed2c3d30a5bb92d45aef23a62523ff02e0058c
+Filename: reddragon-webservices_0.2-r1_all.ipk
+Size: 93122
+SHA256sum: 1f30de476212c75893c87329fc063f71d173a94641ee05f1f4b895c1586f9a4a
 Description:  Package that dynamically show only the services proxied by Nginx on OpenWrt.
  Shown services must include the "/etc/nginx/reverse_proxy" file in the Nginx
  configuration files, and must proxy to a service in the "location" field and
