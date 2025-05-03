@@ -161,19 +161,19 @@ SHA256sum: 2b3820261c9e98fd1a2ad6bf62162ae5f4beaba14d7393c3b77a0e3927864e07
 Description:  Argon Theme
 
 Package: peanut
-Version: 2.3-r1
+Version: 2.4-1
 Depends: libc, bash
 Source: feeds/xptsp/src/peanut
 SourceName: peanut
 License: GPL-3.0-or-later
 Section: utils
-SourceDateEpoch: 1721516743
+SourceDateEpoch: 1744809101
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
-Installed-Size: 10240
-Filename: peanut_2.3-r1_all.ipk
-Size: 1859
-SHA256sum: c3ba15bc8e0188466a25e0a2b1eecbadc5163dfd334fd3059ed443b809330296
+Installed-Size: 1070
+Filename: peanut_2.4-1_all.ipk
+Size: 1861
+SHA256sum: 9243de10a075591f06e1ba478c1ce4f32a32ce3ecfac2948239b6629900f4697
 Description:  Script to list all ports that the OS is listening on, sorted by IPv4 and IPv6, then port number (ascending).
 
 Package: privoxy-blocklist
