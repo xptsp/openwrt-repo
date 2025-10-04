@@ -146,18 +146,18 @@ SHA256sum: 9ec777213f5dbd589d7409c68734c5afc14a4909430c60d6588adbc41584e767
 Description:  Shows Server Listening Ports for LuCI 
 
 Package: luci-theme-argon
-Version: 2.3.1
+Version: 2.4.3
 Depends: libc, curl, jsonfilter
-Source: package/downloads/luci-theme-argon
+Source: feeds/luci/themes/luci-theme-argon
 SourceName: luci-theme-argon
 Section: luci
-SourceDateEpoch: 1703323219
+SourceDateEpoch: 1686043039
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 389621
-Filename: luci-theme-argon_2.3.1_all.ipk
-Size: 390325
-SHA256sum: 2b3820261c9e98fd1a2ad6bf62162ae5f4beaba14d7393c3b77a0e3927864e07
+Installed-Size: 397028
+Filename: luci-theme-argon_2.4.3_all.ipk
+Size: 398036
+SHA256sum: 4ecc6fa2c89a0d71186ac1569090ffcc3583a76abc0db6461212de3ed0cffed4
 Description:  Argon Theme
 
 Package: peanut
