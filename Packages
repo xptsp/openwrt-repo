@@ -84,19 +84,20 @@ SHA256sum: 8a7e3acf6d1eb3e4fa327e0bd37344fa2ab9c80765cc536c4a2e36e64e7b9019
 Description:  LuCI Support for AdGuardHome
 
 Package: luci-app-argon-config
-Version: 0.9
-Depends: libc, luci-compat
-Source: /home/runner/work/gl-sdk-action/gl-sdk-action/buildsource/luci-app-argon-config
+Version: 1.0-r20230608
+Depends: libc, luci-theme-argon
+Source: feeds/base/luci-app-argon-config
 SourceName: luci-app-argon-config
 Section: luci
-SourceDateEpoch: 1650782942
+SourceDateEpoch: 1719256532
+URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3586
-Filename: luci-app-argon-config_0.9_all.ipk
-Size: 4469
-SHA256sum: bd8c055b33cd01d70aea9946c0ed3b69e2ea780181783332afa086b2864affd5
-Description:  LuCI page for Argon Config
+Installed-Size: 30720
+Filename: luci-app-argon-config_1.0-r20230608_all.ipk
+Size: 4015
+SHA256sum: a98ac8d241e2aba7f0f26791867f0124289418bf9365f5299602bb2793661edf
+Description:  LuCI app for Argon theme configuration
 
 Package: luci-app-nodogsplash
 Version: 2.0.1-2

@@ -10,11 +10,11 @@ done
 chmod -x *.ipk
 
 # Define the variables needed:
-SCRIPT="$HOME/Compile/openwrt/scripts/ipkg-make-index.sh"
+SCRIPT="$HOME/Compile/openwrt-rpi4/scripts/ipkg-make-index.sh"
 KEY="$HOME/Compile/openWrtUsign.key"
 
 # Update the files necessary for the repo:
-MKHASH="$HOME/Compile/openwrt/staging_dir/host/bin/mkhash" $SCRIPT . 2>/dev/null > Packages.manifest
+MKHASH="$HOME/Compile/openwrt-rpi4/staging_dir/host/bin/mkhash" $SCRIPT . 2>/dev/null > Packages.manifest
 grep -vE '^Require' Packages.manifest > Packages
 gzip -9nc Packages > Packages.gz
 usign -S -m Packages -s $KEY
