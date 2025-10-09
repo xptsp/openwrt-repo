@@ -1,19 +1,20 @@
 Package: adguardhome
-Version: 0.107.52-r1
+Version: 0.107.57-r1
 Depends: libc, ca-bundle
 Source: feeds/packages/net/adguardhome
 SourceName: adguardhome
 License: GPL-3.0-only
 LicenseFiles: LICENSE.txt
 Section: net
-SourceDateEpoch: 1720864032
+SourceDateEpoch: 1759785923
 URL: https://github.com/AdguardTeam/AdGuardHome
+CPE-ID: cpe:/a:adguard:adguardhome
 Maintainer: Dobroslaw Kijowski <dobo90@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 29378560
-Filename: adguardhome_0.107.52-r1_aarch64_cortex-a53.ipk
-Size: 9837082
-SHA256sum: a17e8ddaf9ec46cf52ec0fd4a6d3c54035cb309eff7585a0c5ef75c56733aedd
+Installed-Size: 30115840
+Filename: adguardhome_0.107.57-r1_aarch64_cortex-a53.ipk
+Size: 10097610
+SHA256sum: f91e5d36f3a89688deb38606ced0240c6dd01712e548a087b37ac6a293263ad0
 Description:  Free and open source, powerful network-wide ads and trackers blocking DNS server.
 
 Package: bcrypt-tool

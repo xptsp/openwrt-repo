@@ -8,23 +8,24 @@ All source for packages (except for AdGuardHome and argon-related packages) are 
 
 ## Included packages
 
-| Package | Description |
-|---------|-------------|
-| [adguardhome](https://github.com/openwrt/packages/tree/master/net/adguardhome) | Blocks ads and trackers on all devices in your home network. |
-| [bcrypt-tool](https://github.com/xptsp/openwrt-bcrypt-tool) | bcrypt-tool is a dandy CLI tool for generating and matching bcrypt hashes |
-| [e2guardian](https://github.com/xptsp/openwrt-e2guardian) | e2guardian for OpenWrt compiled with MITM and ICAP support | 
-| [luci-app-argon-config](https://github.com/jerrykuku/luci-app-argon-config/tree/49501a769f130d400f25a9c58754d7a5dbc48a53) | Argon Theme Config Plugin |
-| [luci-app-adguardhome](https://github.com/xptsp/luci-app-adguardhome) | Package for luci-app-adguardhome for OpenWRT |
-| [luci-app-nodogsplash](https://github.com/xptsp/luci-app-nodogsplash) | Package for luci-app-nodogsplash for OpenWRT |
-| [luci-app-squid-adv](https://github.com/xptsp/luci-app-squid-adv) | Maybe the best LuCI package to configure Squid? |
-| [luci-app-ympd](https://github.com/xptsp/luci-app-ympd) | Package for luci-app-ympd for OpenWRT |
-| [luci-mod-listening-ports](https://github.com/xptsp/luci-mod-listening-ports) | LuCI app to show Server Listening Ports |
-| [luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon/tree/f2eb62b34b6be806297ec69dbda7ffb96e16a566) | Argon is a clean and tidy OpenWrt LuCI theme |
-| [peanut](https://github.com/xptsp/openwrt-peanut) | Script that lists the IPv4 and IPv6 connections the server is listening on |
-| [privoxy-blocklist](https://github.com/xptsp/openwrt-privoxy-blocklist) | Privoxy-Blocklist script for OpenWrt |
-| [saned-initd](https://github.com/xptsp/openwrt-saned-initd) | init.d script for SANED |
-| [twin-bcrypt-js](https://github.com/xptsp/openwrt-twin-bcrypt-js) | twin-bcrypt-js packaged for OpenWRT |
-| [ympd](https://github.com/xptsp/openwrt-ympd) | Package to build ympd for OpenWRT |
+| Package | Description | Compiled For |
+|---------|-------------|------------|
+| [adguardhome](https://github.com/openwrt/packages/tree/master/net/adguardhome) | Blocks ads and trackers on all devices in your home network. | all |
+| [bcrypt-tool](https://github.com/xptsp/openwrt-bcrypt-tool) | bcrypt-tool is a dandy CLI tool for generating and matching bcrypt hashes | aarch64_cortex-a53 |
+| [e2guardian](https://github.com/xptsp/openwrt-e2guardian) | e2guardian for OpenWrt compiled with MITM and ICAP support | aarch64_cortex-a53 |
+| [kmod-rtl88x2bu-cl](https://github.com/mirobiala/rtl88x2bu-cl) | Kmod package for RTL88x2bu-cl wireless devices | aarch64_cortex-a72 | 
+| [luci-app-argon-config](https://github.com/jerrykuku/luci-app-argon-config/tree/49501a769f130d400f25a9c58754d7a5dbc48a53) | Argon Theme Config Plugin | all |
+| [luci-app-adguardhome](https://github.com/xptsp/luci-app-adguardhome) | Package for luci-app-adguardhome for OpenWRT | all |
+| [luci-app-nodogsplash](https://github.com/xptsp/luci-app-nodogsplash) | Package for luci-app-nodogsplash for OpenWRT | all |
+| [luci-app-squid-adv](https://github.com/xptsp/luci-app-squid-adv) | Maybe the best LuCI package to configure Squid? | all |
+| [luci-app-ympd](https://github.com/xptsp/luci-app-ympd) | Package for luci-app-ympd for OpenWRT | all |
+| [luci-mod-listening-ports](https://github.com/xptsp/luci-mod-listening-ports) | LuCI app to show Server Listening Ports | all |
+| [luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon/tree/f2eb62b34b6be806297ec69dbda7ffb96e16a566) | Argon is a clean and tidy OpenWrt LuCI theme | all |
+| [peanut](https://github.com/xptsp/openwrt-peanut) | Script that lists the IPv4 and IPv6 connections the server is listening on | all |
+| [privoxy-blocklist](https://github.com/xptsp/openwrt-privoxy-blocklist) | Privoxy-Blocklist script for OpenWrt | all |
+| [saned-initd](https://github.com/xptsp/openwrt-saned-initd) | init.d script for SANED | all |
+| [twin-bcrypt-js](https://github.com/xptsp/openwrt-twin-bcrypt-js) | twin-bcrypt-js packaged for OpenWRT | all |
+| [ympd](https://github.com/xptsp/openwrt-ympd) | Package to build ympd for OpenWRT | aarch64_cortex-a53 |
 
 ## Instructions
 
