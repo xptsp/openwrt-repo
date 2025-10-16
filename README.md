@@ -13,7 +13,6 @@ All source for packages (except for AdGuardHome and argon-related packages) are 
 | [adguardhome](https://github.com/openwrt/packages/tree/master/net/adguardhome) | Blocks ads and trackers on all devices in your home network. | all |
 | [bcrypt-tool](https://github.com/xptsp/openwrt-bcrypt-tool) | bcrypt-tool is a dandy CLI tool for generating and matching bcrypt hashes | aarch64_cortex-a53 |
 | [e2guardian](https://github.com/xptsp/openwrt-e2guardian) | e2guardian for OpenWrt compiled with MITM and ICAP support | aarch64_cortex-a53 |
-| [kmod-rtl88x2bu-cl](https://github.com/mirobiala/rtl88x2bu-cl) | Kmod package for RTL88x2bu-cl wireless devices | aarch64_cortex-a72 | 
 | [luci-app-argon-config](https://github.com/jerrykuku/luci-app-argon-config/tree/49501a769f130d400f25a9c58754d7a5dbc48a53) | Argon Theme Config Plugin | all |
 | [luci-app-adguardhome](https://github.com/xptsp/luci-app-adguardhome) | Package for luci-app-adguardhome for OpenWRT | all |
 | [luci-app-nodogsplash](https://github.com/xptsp/luci-app-nodogsplash) | Package for luci-app-nodogsplash for OpenWRT | all |

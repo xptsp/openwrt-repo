@@ -51,23 +51,6 @@ SHA256sum: c42e8a07b6430f5da59a0f2778be3e03c71819806558632e6cc01cb14d1437d9
 Description:  e2guardian is an Open Source web content filter, It filters the actual content of pages based on many methods 
  including phrase matching, request  header and URL filtering, etc. It does not purely filter based on a banned list of sites
 
-Package: kmod-rtl88x2bu-cl
-Version: 6.6.104.2025.06.11~77a82dba-r2
-Depends: kernel (=6.6.104~5642ee3ae5a6da3ce336f51cf968083c-r1), kmod-cfg80211, kmod-usb-core
-Provides: kmod-rtl88x2bu
-Source: feeds/base/kernel/rtl88x2bu-cl
-SourceName: rtl88x2bu-cl
-License: GPLv2
-Section: kernel
-SourceDateEpoch: 1750918145
-Maintainer: Rin Cat <dev@rincat.ch>
-Architecture: aarch64_cortex-a72
-Installed-Size: 4689920
-Filename: kmod-rtl88x2bu-cl_6.6.104.2025.06.11~77a82dba-r2_aarch64_cortex-a72.ipk
-Size: 1052854
-SHA256sum: d0fa5a72388f02e6918850af6b50ab6fde732e454e07df1356bf2ca0142d1c5c
-Description:  Realtek 88x2BU driver by RinCat
-
 Package: luci-app-adguardhome
 Version: 2.2-r1
 Depends: libc, adguardhome, luci-base, twin-bcrypt-js, curl
