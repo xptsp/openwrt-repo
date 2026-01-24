@@ -40,3 +40,6 @@
 [submodule "src/rtl88x2bu-cl"]
 	path = src/rtl88x2bu-cl
 	url = https://github.com/mirobiala/rtl88x2bu-cl
+[submodule "src/port-trigger"]
+	path = src/port-trigger
+	url = https://github.com/xptsp/openwrt-port-triggering
