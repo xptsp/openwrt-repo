@@ -178,22 +178,6 @@ Size: 1861
 SHA256sum: 9243de10a075591f06e1ba478c1ce4f32a32ce3ecfac2948239b6629900f4697
 Description:  Script to list all ports that the OS is listening on, sorted by IPv4 and IPv6, then port number (ascending).
 
-Package: port-trigger
-Version: 1.0-r1
-Depends: libc, ulogd-mod-extra, ulogd-mod-nflog
-Source: feeds/base/openwrt-port-triggering
-SourceName: port-trigger
-License: GPL-3.0-or-later
-Section: net
-SourceDateEpoch: 1769268247
-Maintainer: Douglas Orend <doug.orend2@gmail.com>
-Architecture: all
-Installed-Size: 20480
-Filename: port-trigger_1.0-r1_all.ipk
-Size: 2642
-SHA256sum: 1d5a7ee8ffb28c997db2f4636f6af01378bfe94012528ebfae1642a15fff5ea2
-Description:  Port triggering rules and script for NFTables 
-
 Package: privoxy-blocklist
 Version: 0.4.0-4
 Depends: libc, bash, grep, privoxy, sed, wget-ssl
