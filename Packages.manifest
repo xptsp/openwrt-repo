@@ -17,6 +17,221 @@ Size: 10097610
 SHA256sum: f91e5d36f3a89688deb38606ced0240c6dd01712e548a087b37ac6a293263ad0
 Description:  Free and open source, powerful network-wide ads and trackers blocking DNS server.
 
+Package: luci-app-adguardhome
+Version: 2.2-r1
+Depends: libc, adguardhome, luci-base, twin-bcrypt-js, curl
+Source: feeds/xptsp/src/luci-app-adguardhome
+SourceName: luci-app-adguardhome
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1744756127
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: all
+Installed-Size: 30720
+Filename: all/luci-app-adguardhome_2.2-r1_all.ipk
+Size: 6582
+SHA256sum: 8a7e3acf6d1eb3e4fa327e0bd37344fa2ab9c80765cc536c4a2e36e64e7b9019
+Description:  LuCI Support for AdGuardHome
+
+Package: luci-app-argon-config
+Version: 1.0-r20230608
+Depends: libc, luci-theme-argon
+Source: feeds/base/luci-app-argon-config
+SourceName: luci-app-argon-config
+Section: luci
+SourceDateEpoch: 1719256532
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: all/luci-app-argon-config_1.0-r20230608_all.ipk
+Size: 4015
+SHA256sum: a98ac8d241e2aba7f0f26791867f0124289418bf9365f5299602bb2793661edf
+Description:  LuCI app for Argon theme configuration
+
+Package: luci-app-nodogsplash
+Version: 2.0.1-2
+Depends: libc, nodogsplash, luci-base
+Source: feeds/xptsp/src/luci-app-nodogsplash
+SourceName: luci-app-nodogsplash
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1721516774
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: all
+Installed-Size: 5533
+Filename: all/luci-app-nodogsplash_2.0.1-2_all.ipk
+Size: 6291
+SHA256sum: 356ca0426950e707e1f4435d5c162bf430a87f5055e3c6f7ffddd49014ed21e3
+Description:  LuCI Support for nodogsplash
+
+Package: luci-app-squid-adv
+Version: 2.0-2
+Depends: libc, squid, luci-base
+Source: feeds/xptsp/src/luci-app-squid-adv
+SourceName: luci-app-squid-adv
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1723637023
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: all
+Installed-Size: 17154
+Filename: all/luci-app-squid-adv_2.0-2_all.ipk
+Size: 17969
+SHA256sum: b69d7d114511e0e4590b97ec7dc13c1239a2d4fc8fe529214db0ce771c18f07e
+Description:  LuCI Support for Squid, complete with Transparent Proxy support for both HTTP and HTTPS!
+
+Package: luci-app-ympd
+Version: 1.1-1
+Depends: libc, luci-base, ympd
+Source: feeds/xptsp/src/luci-app-ympd
+SourceName: luci-app-ympd
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1725022777
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: all
+Installed-Size: 1473
+Filename: all/luci-app-ympd_1.1-1_all.ipk
+Size: 2216
+SHA256sum: f8137ebe680e0092de64fadaff0e57872841c3b949c86799ffc750ac35a5db68
+Description:  LuCI Support for YMPD 
+
+Package: luci-mod-listening-ports
+Version: 1.0-3
+Depends: libc, luci-base, bash
+Source: feeds/xptsp/src/luci-mod-listening-ports
+SourceName: luci-mod-listening-ports
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1721835628
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: all
+Installed-Size: 1631
+Filename: all/luci-mod-listening-ports_1.0-3_all.ipk
+Size: 2381
+SHA256sum: 9ec777213f5dbd589d7409c68734c5afc14a4909430c60d6588adbc41584e767
+Description:  Shows Server Listening Ports for LuCI 
+
+Package: luci-theme-argon
+Version: 2.4.3
+Depends: libc, curl, jsonfilter
+Source: feeds/luci/themes/luci-theme-argon
+SourceName: luci-theme-argon
+Section: luci
+SourceDateEpoch: 1686043039
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 397028
+Filename: all/luci-theme-argon_2.4.3_all.ipk
+Size: 398036
+SHA256sum: 4ecc6fa2c89a0d71186ac1569090ffcc3583a76abc0db6461212de3ed0cffed4
+Description:  Argon Theme
+
+Package: peanut
+Version: 2.4-1
+Depends: libc, bash
+Source: feeds/xptsp/src/peanut
+SourceName: peanut
+License: GPL-3.0-or-later
+Section: utils
+SourceDateEpoch: 1744809101
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: all
+Installed-Size: 1070
+Filename: all/peanut_2.4-1_all.ipk
+Size: 1861
+SHA256sum: 9243de10a075591f06e1ba478c1ce4f32a32ce3ecfac2948239b6629900f4697
+Description:  Script to list all ports that the OS is listening on, sorted by IPv4 and IPv6, then port number (ascending).
+
+Package: port-trigger
+Version: 1.0-r1
+Depends: libc, ulogd-mod-extra, ulogd-mod-nflog
+Source: feeds/base/openwrt-port-triggering
+SourceName: port-trigger
+License: GPL-3.0-or-later
+Section: net
+SourceDateEpoch: 1769293182
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: all
+Installed-Size: 20480
+Filename: all/port-trigger_1.0-r1_all.ipk
+Size: 4000
+SHA256sum: 1dc50b69434311da485c6098fe24e6148a2ebfb6ae25193b8314d4c6459b1ff5
+Description:  Port triggering rules and script for NFTables 
+
+Package: privoxy-blocklist
+Version: 0.4.0-4
+Depends: libc, bash, grep, privoxy, sed, wget-ssl
+Source: feeds/xptsp/src/privoxy-blocklist
+SourceName: privoxy-blocklist
+License: unlicense
+Section: utils
+SourceDateEpoch: 1721516751
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: all
+Installed-Size: 7270
+Filename: all/privoxy-blocklist_0.4.0-4_all.ipk
+Size: 8237
+SHA256sum: 170cc3a8092bfda9450a175042888be0ea9f422eb3eb75a8588611529fc3d450
+Description:  The script privoxy-blocklist.sh downloads AdBlock Plus filter files and generates privoxy
+ compatible filter and action files based on these. After the generation is done it modifies 
+ the privoxy configuration files /etc/privoxy/config to import the generated files.
+ 
+ Due to this behaviour the script must run as root user to be able to modify the privoxy configuration file.
+
+Package: reddragon-webservices
+Version: 0.4-1
+Depends: libc, nginx-ssl, bash
+Source: feeds/xptsp/src/reddragon-webservices
+SourceName: reddragon-webservices
+License: GPL-3.0-or-later
+Section: utils
+SourceDateEpoch: 1745947240
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: all
+Installed-Size: 39065
+Filename: all/reddragon-webservices_0.4-1_all.ipk
+Size: 40090
+SHA256sum: 096a98a5e21e50e9bcaf35f12d1492561587a74803e21854c78cfb0574eedeff
+Description:  Package that dynamically show only the services proxied by Nginx on OpenWrt.
+ Shown services must include the "/etc/nginx/reverse_proxy" file in the Nginx
+ configuration files, and must proxy to a service in the "location" field and
+ should include the service name after the "location" field in order to be 
+ listed by this web service.
+
+Package: saned-initd
+Version: 1.1-2
+Depends: libc, sane-daemon
+Source: feeds/xptsp/src/saned-initd
+SourceName: saned-initd
+License: GPL-3.0-or-later
+Section: utils
+SourceDateEpoch: 1721516759
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: all
+Installed-Size: 320
+Filename: all/saned-initd_1.1-2_all.ipk
+Size: 1067
+SHA256sum: 7c2100a7ffa7a758dbec00728b06a5a899bec368b80beafbbf31f56699287333
+Description:  init.d script to start the SANED service
+
+Package: twin-bcrypt-js
+Version: 2.2.0-1
+Depends: libc
+Source: feeds/xptsp/src/twin-bcrypt-js
+SourceName: twin-bcrypt-js
+License: unlicense
+Section: utils
+SourceDateEpoch: 1721081658
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: all
+Installed-Size: 9955
+Filename: all/twin-bcrypt-js_2.2.0-1_all.ipk
+Size: 10684
+SHA256sum: 6fd2c1c7b431f16938df3e63e92e282ea997ef9da87a7cf8335ab71939a16ff2
+Description:  twin-bcrypt-js
+
 Package: bcrypt-tool
 Version: 1.1.6-2
 Depends: libc
@@ -50,221 +265,6 @@ Size: 633569
 SHA256sum: c42e8a07b6430f5da59a0f2778be3e03c71819806558632e6cc01cb14d1437d9
 Description:  e2guardian is an Open Source web content filter, It filters the actual content of pages based on many methods 
  including phrase matching, request  header and URL filtering, etc. It does not purely filter based on a banned list of sites
-
-Package: luci-app-adguardhome
-Version: 2.2-r1
-Depends: libc, adguardhome, luci-base, twin-bcrypt-js, curl
-Source: feeds/xptsp/src/luci-app-adguardhome
-SourceName: luci-app-adguardhome
-License: Apache-2.0
-Section: luci
-SourceDateEpoch: 1744756127
-Maintainer: Douglas Orend <doug.orend2@gmail.com>
-Architecture: all
-Installed-Size: 30720
-Filename: luci-app-adguardhome_2.2-r1_all.ipk
-Size: 6582
-SHA256sum: 8a7e3acf6d1eb3e4fa327e0bd37344fa2ab9c80765cc536c4a2e36e64e7b9019
-Description:  LuCI Support for AdGuardHome
-
-Package: luci-app-argon-config
-Version: 1.0-r20230608
-Depends: libc, luci-theme-argon
-Source: feeds/base/luci-app-argon-config
-SourceName: luci-app-argon-config
-Section: luci
-SourceDateEpoch: 1719256532
-URL: https://github.com/openwrt/luci
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 30720
-Filename: luci-app-argon-config_1.0-r20230608_all.ipk
-Size: 4015
-SHA256sum: a98ac8d241e2aba7f0f26791867f0124289418bf9365f5299602bb2793661edf
-Description:  LuCI app for Argon theme configuration
-
-Package: luci-app-nodogsplash
-Version: 2.0.1-2
-Depends: libc, nodogsplash, luci-base
-Source: feeds/xptsp/src/luci-app-nodogsplash
-SourceName: luci-app-nodogsplash
-License: Apache-2.0
-Section: luci
-SourceDateEpoch: 1721516774
-Maintainer: Douglas Orend <doug.orend2@gmail.com>
-Architecture: all
-Installed-Size: 5533
-Filename: luci-app-nodogsplash_2.0.1-2_all.ipk
-Size: 6291
-SHA256sum: 356ca0426950e707e1f4435d5c162bf430a87f5055e3c6f7ffddd49014ed21e3
-Description:  LuCI Support for nodogsplash
-
-Package: luci-app-squid-adv
-Version: 2.0-2
-Depends: libc, squid, luci-base
-Source: feeds/xptsp/src/luci-app-squid-adv
-SourceName: luci-app-squid-adv
-License: Apache-2.0
-Section: luci
-SourceDateEpoch: 1723637023
-Maintainer: Douglas Orend <doug.orend2@gmail.com>
-Architecture: all
-Installed-Size: 17154
-Filename: luci-app-squid-adv_2.0-2_all.ipk
-Size: 17969
-SHA256sum: b69d7d114511e0e4590b97ec7dc13c1239a2d4fc8fe529214db0ce771c18f07e
-Description:  LuCI Support for Squid, complete with Transparent Proxy support for both HTTP and HTTPS!
-
-Package: luci-app-ympd
-Version: 1.1-1
-Depends: libc, luci-base, ympd
-Source: feeds/xptsp/src/luci-app-ympd
-SourceName: luci-app-ympd
-License: Apache-2.0
-Section: luci
-SourceDateEpoch: 1725022777
-Maintainer: Douglas Orend <doug.orend2@gmail.com>
-Architecture: all
-Installed-Size: 1473
-Filename: luci-app-ympd_1.1-1_all.ipk
-Size: 2216
-SHA256sum: f8137ebe680e0092de64fadaff0e57872841c3b949c86799ffc750ac35a5db68
-Description:  LuCI Support for YMPD 
-
-Package: luci-mod-listening-ports
-Version: 1.0-3
-Depends: libc, luci-base, bash
-Source: feeds/xptsp/src/luci-mod-listening-ports
-SourceName: luci-mod-listening-ports
-License: Apache-2.0
-Section: luci
-SourceDateEpoch: 1721835628
-Maintainer: Douglas Orend <doug.orend2@gmail.com>
-Architecture: all
-Installed-Size: 1631
-Filename: luci-mod-listening-ports_1.0-3_all.ipk
-Size: 2381
-SHA256sum: 9ec777213f5dbd589d7409c68734c5afc14a4909430c60d6588adbc41584e767
-Description:  Shows Server Listening Ports for LuCI 
-
-Package: luci-theme-argon
-Version: 2.4.3
-Depends: libc, curl, jsonfilter
-Source: feeds/luci/themes/luci-theme-argon
-SourceName: luci-theme-argon
-Section: luci
-SourceDateEpoch: 1686043039
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 397028
-Filename: luci-theme-argon_2.4.3_all.ipk
-Size: 398036
-SHA256sum: 4ecc6fa2c89a0d71186ac1569090ffcc3583a76abc0db6461212de3ed0cffed4
-Description:  Argon Theme
-
-Package: peanut
-Version: 2.4-1
-Depends: libc, bash
-Source: feeds/xptsp/src/peanut
-SourceName: peanut
-License: GPL-3.0-or-later
-Section: utils
-SourceDateEpoch: 1744809101
-Maintainer: Douglas Orend <doug.orend2@gmail.com>
-Architecture: all
-Installed-Size: 1070
-Filename: peanut_2.4-1_all.ipk
-Size: 1861
-SHA256sum: 9243de10a075591f06e1ba478c1ce4f32a32ce3ecfac2948239b6629900f4697
-Description:  Script to list all ports that the OS is listening on, sorted by IPv4 and IPv6, then port number (ascending).
-
-Package: port-trigger
-Version: 1.0-r1
-Depends: libc, ulogd-mod-extra, ulogd-mod-nflog
-Source: feeds/base/openwrt-port-triggering
-SourceName: port-trigger
-License: GPL-3.0-or-later
-Section: net
-SourceDateEpoch: 1769293182
-Maintainer: Douglas Orend <doug.orend2@gmail.com>
-Architecture: all
-Installed-Size: 20480
-Filename: port-trigger_1.0-r1_all.ipk
-Size: 4000
-SHA256sum: 1dc50b69434311da485c6098fe24e6148a2ebfb6ae25193b8314d4c6459b1ff5
-Description:  Port triggering rules and script for NFTables 
-
-Package: privoxy-blocklist
-Version: 0.4.0-4
-Depends: libc, bash, grep, privoxy, sed, wget-ssl
-Source: feeds/xptsp/src/privoxy-blocklist
-SourceName: privoxy-blocklist
-License: unlicense
-Section: utils
-SourceDateEpoch: 1721516751
-Maintainer: Douglas Orend <doug.orend2@gmail.com>
-Architecture: all
-Installed-Size: 7270
-Filename: privoxy-blocklist_0.4.0-4_all.ipk
-Size: 8237
-SHA256sum: 170cc3a8092bfda9450a175042888be0ea9f422eb3eb75a8588611529fc3d450
-Description:  The script privoxy-blocklist.sh downloads AdBlock Plus filter files and generates privoxy
- compatible filter and action files based on these. After the generation is done it modifies 
- the privoxy configuration files /etc/privoxy/config to import the generated files.
- 
- Due to this behaviour the script must run as root user to be able to modify the privoxy configuration file.
-
-Package: reddragon-webservices
-Version: 0.4-1
-Depends: libc, nginx-ssl, bash
-Source: feeds/xptsp/src/reddragon-webservices
-SourceName: reddragon-webservices
-License: GPL-3.0-or-later
-Section: utils
-SourceDateEpoch: 1745947240
-Maintainer: Douglas Orend <doug.orend2@gmail.com>
-Architecture: all
-Installed-Size: 39065
-Filename: reddragon-webservices_0.4-1_all.ipk
-Size: 40090
-SHA256sum: 096a98a5e21e50e9bcaf35f12d1492561587a74803e21854c78cfb0574eedeff
-Description:  Package that dynamically show only the services proxied by Nginx on OpenWrt.
- Shown services must include the "/etc/nginx/reverse_proxy" file in the Nginx
- configuration files, and must proxy to a service in the "location" field and
- should include the service name after the "location" field in order to be 
- listed by this web service.
-
-Package: saned-initd
-Version: 1.1-2
-Depends: libc, sane-daemon
-Source: feeds/xptsp/src/saned-initd
-SourceName: saned-initd
-License: GPL-3.0-or-later
-Section: utils
-SourceDateEpoch: 1721516759
-Maintainer: Douglas Orend <doug.orend2@gmail.com>
-Architecture: all
-Installed-Size: 320
-Filename: saned-initd_1.1-2_all.ipk
-Size: 1067
-SHA256sum: 7c2100a7ffa7a758dbec00728b06a5a899bec368b80beafbbf31f56699287333
-Description:  init.d script to start the SANED service
-
-Package: twin-bcrypt-js
-Version: 2.2.0-1
-Depends: libc
-Source: feeds/xptsp/src/twin-bcrypt-js
-SourceName: twin-bcrypt-js
-License: unlicense
-Section: utils
-SourceDateEpoch: 1721081658
-Maintainer: Douglas Orend <doug.orend2@gmail.com>
-Architecture: all
-Installed-Size: 9955
-Filename: twin-bcrypt-js_2.2.0-1_all.ipk
-Size: 10684
-SHA256sum: 6fd2c1c7b431f16938df3e63e92e282ea997ef9da87a7cf8335ab71939a16ff2
-Description:  twin-bcrypt-js
 
 Package: ympd
 Version: 1.2.3-3
