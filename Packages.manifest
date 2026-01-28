@@ -12,10 +12,59 @@ CPE-ID: cpe:/a:adguard:adguardhome
 Maintainer: Dobroslaw Kijowski <dobo90@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 30115840
-Filename: adguardhome_0.107.57-r1_aarch64_cortex-a53.ipk
+Filename: aarch64_cortex-a53/adguardhome_0.107.57-r1_aarch64_cortex-a53.ipk
 Size: 10097610
 SHA256sum: f91e5d36f3a89688deb38606ced0240c6dd01712e548a087b37ac6a293263ad0
 Description:  Free and open source, powerful network-wide ads and trackers blocking DNS server.
+
+Package: bcrypt-tool
+Version: 1.1.6-2
+Depends: libc
+Source: feeds/xptsp/src/bcrypt-tool
+SourceName: bcrypt-tool
+License: GPL-2.0-only
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1721516619
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 573348
+Filename: aarch64_cortex-a53/bcrypt-tool_1.1.6-2_aarch64_cortex-a53.ipk
+Size: 573144
+SHA256sum: 4fddac2bd604e1242fd46f7ac1143f093b443201e9fecdb1bd74b65b2e41e862
+Description:  bcrypt-tool is a dandy CLI tool for generating and matching bcrypt hashes
+
+Package: e2guardian
+Version: 5.5.6r-2
+Depends: libc, libpthread, libstdcpp6, zlib, libpcre, libopenssl3
+Source: feeds/xptsp/src/e2guardian
+SourceName: e2guardian
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1721510945
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 633586
+Filename: aarch64_cortex-a53/e2guardian_5.5.6r-2_aarch64_cortex-a53.ipk
+Size: 633569
+SHA256sum: c42e8a07b6430f5da59a0f2778be3e03c71819806558632e6cc01cb14d1437d9
+Description:  e2guardian is an Open Source web content filter, It filters the actual content of pages based on many methods 
+ including phrase matching, request  header and URL filtering, etc. It does not purely filter based on a banned list of sites
+
+Package: ympd
+Version: 1.2.3-3
+Depends: libc, libmpdclient, libpthread, libopenssl3
+Source: feeds/xptsp/src/ympd
+SourceName: ympd
+Section: utils
+SourceDateEpoch: 1721938796
+Maintainer: Douglas Orend <doug.orend2@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 339088
+Filename: aarch64_cortex-a53/ympd_1.2.3-3_aarch64_cortex-a53.ipk
+Size: 339467
+SHA256sum: 304eee9d02fa742ca6bd5a1604b58ae97b02f0dd4f80f1b7a7c8a336ff3c420d
+Description:  MPD Web GUI - written in C, utilizing Websockets and Bootstrap/JS
 
 Package: luci-app-adguardhome
 Version: 2.2-r1
@@ -231,53 +280,4 @@ Filename: all/twin-bcrypt-js_2.2.0-1_all.ipk
 Size: 10684
 SHA256sum: 6fd2c1c7b431f16938df3e63e92e282ea997ef9da87a7cf8335ab71939a16ff2
 Description:  twin-bcrypt-js
-
-Package: bcrypt-tool
-Version: 1.1.6-2
-Depends: libc
-Source: feeds/xptsp/src/bcrypt-tool
-SourceName: bcrypt-tool
-License: GPL-2.0-only
-LicenseFiles: LICENSE
-Section: utils
-SourceDateEpoch: 1721516619
-Maintainer: Douglas Orend <doug.orend2@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 573348
-Filename: bcrypt-tool_1.1.6-2_aarch64_cortex-a53.ipk
-Size: 573144
-SHA256sum: 4fddac2bd604e1242fd46f7ac1143f093b443201e9fecdb1bd74b65b2e41e862
-Description:  bcrypt-tool is a dandy CLI tool for generating and matching bcrypt hashes
-
-Package: e2guardian
-Version: 5.5.6r-2
-Depends: libc, libpthread, libstdcpp6, zlib, libpcre, libopenssl3
-Source: feeds/xptsp/src/e2guardian
-SourceName: e2guardian
-License: GPL-2.0
-Section: net
-SourceDateEpoch: 1721510945
-Maintainer: Douglas Orend <doug.orend2@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 633586
-Filename: e2guardian_5.5.6r-2_aarch64_cortex-a53.ipk
-Size: 633569
-SHA256sum: c42e8a07b6430f5da59a0f2778be3e03c71819806558632e6cc01cb14d1437d9
-Description:  e2guardian is an Open Source web content filter, It filters the actual content of pages based on many methods 
- including phrase matching, request  header and URL filtering, etc. It does not purely filter based on a banned list of sites
-
-Package: ympd
-Version: 1.2.3-3
-Depends: libc, libmpdclient, libpthread, libopenssl3
-Source: feeds/xptsp/src/ympd
-SourceName: ympd
-Section: utils
-SourceDateEpoch: 1721938796
-Maintainer: Douglas Orend <doug.orend2@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 339088
-Filename: ympd_1.2.3-3_aarch64_cortex-a53.ipk
-Size: 339467
-SHA256sum: 304eee9d02fa742ca6bd5a1604b58ae97b02f0dd4f80f1b7a7c8a336ff3c420d
-Description:  MPD Web GUI - written in C, utilizing Websockets and Bootstrap/JS
 
