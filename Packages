@@ -266,6 +266,24 @@ Size: 10684
 SHA256sum: 6fd2c1c7b431f16938df3e63e92e282ea997ef9da87a7cf8335ab71939a16ff2
 Description:  twin-bcrypt-js
 
+Package: vlmcsd
+Version: svn1113-r2
+Depends: libc, libpthread
+Source: feeds/base/vlmcsd
+SourceName: vlmcsd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1738018409
+URL: http://forums.mydigitallife.info/threads/50234
+Maintainer: HotBird64
+Architecture: aarch64_cortex-a53
+Installed-Size: 133120
+Filename: vlmcsd_svn1113-r2_aarch64_cortex-a53.ipk
+Size: 60766
+SHA256sum: 65818602bae60e6b733354d231a050a1650909a4bda1804847495df94fe83514
+Description:  vlmcsd is a KMS Emulator in C.
+
 Package: ympd
 Version: 1.2.3-3
 Depends: libc, libmpdclient, libpthread, libopenssl3
