@@ -43,3 +43,6 @@
 [submodule "src/port-trigger"]
 	path = src/port-trigger
 	url = https://github.com/xptsp/openwrt-port-triggering
+[submodule "src/vlmcsd"]
+	path = src/vlmcsd
+	url = https://github.com/xptsp/openwrt-vlmcsd

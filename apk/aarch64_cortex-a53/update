@@ -1,0 +1,11 @@
+#!/bin/bash
+DIR=~/GitHub/Builder
+
+# Generate repository private key if it doesn't exist:
+test -f ${DIR}/keys/xptsp-private-key.pem || openssl genrsa -out ${DIR}/keys/xptsp-private-key.pem 2048
+
+# Generate repository public key if it doesn't exist:
+test -f xptsp-public-key.pem || openssl rsa -in ${DIR}/keys/xptsp-private-key.pem -pubout -out xptsp-public-key.pem
+
+# Index and Sign the Repository
+${DIR}/staging_dir/host/bin/apk mkndx --keys $PWD --sign ${DIR}/keys/xptsp-private-key.pem -o packages.adb *.apk --allow-untrusted
