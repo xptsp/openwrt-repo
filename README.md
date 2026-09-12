@@ -24,8 +24,14 @@ All source for packages (except for AdGuardHome and argon-related packages) are 
 | [privoxy-blocklist](https://github.com/xptsp/openwrt-privoxy-blocklist) | Privoxy-Blocklist script for OpenWrt | all |
 | [saned-initd](https://github.com/xptsp/openwrt-saned-initd) | init.d script for SANED | all |
 | [twin-bcrypt-js](https://github.com/xptsp/openwrt-twin-bcrypt-js) | twin-bcrypt-js packaged for OpenWRT | all |
-| [ympd](https://github.com/xptsp/openwrt-ympd) | Package to build ympd for OpenWRT | aarch64_cortex-a53 |
-
+| [ympd](https://github.com/xptsp/openwrt-ympd) | Package to build ympd for OpenWRT | aarch64_cortex-a53 | all |
+| [luci-theme-alpha](https://github.com/derisamedia/luci-theme-alpha) | Luci theme Alpha | all ]
+| [luci-app-alpha-config](https://github.com/derisamedia/luci-theme-alpha) | Alpha is a Luci theme for OpenWRT | all ]
+| [luci-theme-proton2025](https://github.com/ChesterGoodiny/luci-theme-proton2025/) | Proton2025 is a Luci theme for OpenWRT | all ]
+| [luci-theme-shadcn](https://github.com/eamonxg/luci-theme-shadcn) | shadcn is a Luci theme for OpenWRT | all ]
+| [luci-theme-edge](https://github.com/davinyue/luci-theme-edge) | Edge is a Luci theme for OpenWRT | all |
+| [luci-theme-aurora](https://github.com/eamonxg/luci-theme-aurora) | Aurora is a Luci theme for OpenWRT | all |
+ 
 ## Instructions
 
 ### How to use on a live system:

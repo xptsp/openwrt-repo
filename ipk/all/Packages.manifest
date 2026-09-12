@@ -14,6 +14,22 @@ Size: 6582
 SHA256sum: 8a7e3acf6d1eb3e4fa327e0bd37344fa2ab9c80765cc536c4a2e36e64e7b9019
 Description:  LuCI Support for AdGuardHome
 
+Package: luci-app-alpha-config
+Version: 1.4
+Depends: libc
+Source: package/downloads/luci-app-alpha-config
+SourceName: luci-app-alpha-config
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1708761900
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1785
+Filename: ipk/all/luci-app-alpha-config_1.4_all.ipk
+Size: 2614
+SHA256sum: 7a77bc244b48f99985e01f5c1656869aedd254b8d3bcc94c56233f4646af626a
+Description:  Configuration Alpha theme in LuCI.
+
 Package: luci-app-argon-config
 Version: 1.0-r20230608
 Depends: libc, luci-theme-argon
@@ -104,6 +120,20 @@ Size: 2381
 SHA256sum: 9ec777213f5dbd589d7409c68734c5afc14a4909430c60d6588adbc41584e767
 Description:  Shows Server Listening Ports for LuCI 
 
+Package: luci-theme-alpha
+Version: 3.9.7_beta2-10
+Depends: libc, luci-app-alpha-config
+Source: package/luci-theme-alpha
+SourceName: luci-theme-alpha
+Section: luci
+SourceDateEpoch: 1775081023
+Architecture: all
+Installed-Size: 2924025
+Filename: ipk/all/luci-theme-alpha_3.9.7_beta2-10_all.ipk
+Size: 2925171
+SHA256sum: 75c447a270edd65eb89e0e96eb92f9ea004ef4a8453a9a381eb3c42297032871
+Description:  LuCi Theme For OpenWrt And Alpha OS ONLY - Alpha
+
 Package: luci-theme-argon
 Version: 2.4.3
 Depends: libc, curl, jsonfilter
@@ -118,6 +148,57 @@ Filename: ipk/all/luci-theme-argon_2.4.3_all.ipk
 Size: 398036
 SHA256sum: 4ecc6fa2c89a0d71186ac1569090ffcc3583a76abc0db6461212de3ed0cffed4
 Description:  Argon Theme
+
+Package: luci-theme-aurora
+Version: 1.3.0-r20260830
+Depends: libc, luci-base
+Source: feeds/base/luci-theme-aurora
+SourceName: luci-theme-aurora
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1788069799
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 471040
+Filename: ipk/all/luci-theme-aurora_1.3.0-r20260830_all.ipk
+Size: 183314
+SHA256sum: e9904780eb405bfae78d2b2dc96fba8c04bcb815bed9a0f7ad76f802265c3699
+Description:  Aurora Theme (A modern browser theme built with Vite and Tailwind CSS)
+
+Package: luci-theme-proton2025
+Version: 1.4.1
+Depends: libc, luci-base
+Source: feeds/base/luci-theme-proton2025
+SourceName: luci-theme-proton2025
+License: Apache-2.0
+LicenseFiles: LICENSE NOTICE
+Section: luci
+SourceDateEpoch: 1727094886
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 427013
+Filename: ipk/all/luci-theme-proton2025_1.4.1_all.ipk
+Size: 427612
+SHA256sum: 72ddb95d4058067e8bb0f608183e636f1cdc966b76adbbeb50c6415bbebece1b
+Description:  Proton2025 - Elegant Dark Theme for LuCI
+
+Package: luci-theme-shadcn
+Version: 0.5.0-r20260830
+Depends: libc, luci-base
+Source: feeds/base/luci-theme-shadcn
+SourceName: luci-theme-shadcn
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1788069801
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 798720
+Filename: ipk/all/luci-theme-shadcn_0.5.0-r20260830_all.ipk
+Size: 523117
+SHA256sum: 4e0dc3cafd33c17636dcbc7c5b062c89266cb6e621b3c3cda910e17b369edb49
+Description:  A modern sidebar LuCI theme for OpenWrt, built with shadcn/ui design language.
 
 Package: peanut
 Version: 2.4-1
