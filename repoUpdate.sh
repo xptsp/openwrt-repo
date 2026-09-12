@@ -37,8 +37,8 @@ mkpackage ipk/x86_64
 #############################################################################################
 function apk_package()
 {
-	$HOME/Compile/openwrt/staging_dir/host/bin/apk mkndx --root apk --keys-dir $HOME/Compile/openwrt \
-		--sign $HOME/Compile/openwrt/private-key.pem --output $1/packages.adb --allow-untrusted $1/*.apk
+	$HOME/Compile/openwrt/staging_dir/host/bin/apk mkndx --root apk --keys-dir $HOME/GitHub/Builder/keys/ \
+		--sign $HOME/GitHub/Builder/keys/local-private-key.pem --output $1/packages.adb --allow-untrusted $1/*.apk
 }
 apk_package apk/all
 apk_package apk/aarch64_cortex-a53
