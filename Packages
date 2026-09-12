@@ -51,6 +51,20 @@ SHA256sum: c42e8a07b6430f5da59a0f2778be3e03c71819806558632e6cc01cb14d1437d9
 Description:  e2guardian is an Open Source web content filter, It filters the actual content of pages based on many methods 
  including phrase matching, request  header and URL filtering, etc. It does not purely filter based on a banned list of sites
 
+Package: kmod-ledtrig-ugreen
+Version: 6.6.144.0.3-r1
+Depends: kernel (=6.6.144~50daf8372d971124fb3519e8d87e02ae-r1), kmod-i2c-core
+Source: feeds/base/kernel/kmod-ledtrig-ugreen
+SourceName: kmod-ledtrig-ugreen
+Section: kernel
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: kmod-ledtrig-ugreen_6.6.144.0.3-r1_x86_64.ipk
+Size: 6581
+SHA256sum: ac564aaa567a14881a8b14465ed78c2d2704888ae2d9f45bb8d8a37ceee8caaa
+Description:  Kernel module to control the front panel disk and power LEDs on UGREEN DX/DXP series NAS devices.
+
 Package: luci-app-adguardhome
 Version: 2.2-r1
 Depends: libc, adguardhome, luci-base, twin-bcrypt-js, curl
