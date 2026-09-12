@@ -46,3 +46,9 @@
 [submodule "src/vlmcsd"]
 	path = src/vlmcsd
 	url = https://github.com/xptsp/openwrt-vlmcsd
+[submodule "src/luci-app-fancontrol"]
+	path = src/luci-app-fancontrol
+	url = https://github.com/bigmalloy/luci-app-fancontrol
+[submodule "src/ledtrig-ugreen"]
+	path = src/ledtrig-ugreen
+	url = https://github.com/xptsp/openwrt-ledtrig-ugreen
