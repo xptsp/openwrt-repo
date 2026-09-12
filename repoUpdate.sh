@@ -19,7 +19,7 @@ KEY="$HOME/Compile/openWrtUsign.key"
 function mkhash()
 {
 	pushd $1 > /dev/null
-	MKHASH="$HOME/Compile/openwrt-24.10.8-x86/staging_dir/host/bin/mkhash" $SCRIPT . | tee Packages.manifest | sed "s|Filename: |Filename: $1|g";
+	MKHASH="$HOME/Compile/openwrt-24.10.8-x86/staging_dir/host/bin/mkhash" $SCRIPT . | tee Packages.manifest | sed "s|Filename: |Filename: $1/|g";
 	mkpackage $1
 	popd > /dev/null
 }
