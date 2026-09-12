@@ -97,6 +97,16 @@ Size: 4015
 SHA256sum: a98ac8d241e2aba7f0f26791867f0124289418bf9365f5299602bb2793661edf
 Description:  LuCI app for Argon theme configuration
 
+Package: luci-app-fancontrol
+Version: 3.1.3
+Depends: libc, luci-base, rpcd, jsonfilter, uci, kmod-hwmon-core, kmod-hwmon-pwmfan
+Architecture: all
+Maintainer: OpenWrt User
+Filename: luci-app-fancontrol_3.1.3_all.ipk
+Size: 6992
+SHA256sum: ca5b3170230f7e780b1414657bcab4282a0cac98faef51252fe6466c6ea9b497
+Description: Automatic PWM fan control with LuCI web interface
+
 Package: luci-app-nodogsplash
 Version: 2.0.1-2
 Depends: libc, nodogsplash, luci-base
