@@ -390,6 +390,22 @@ Size: 339467
 SHA256sum: 304eee9d02fa742ca6bd5a1604b58ae97b02f0dd4f80f1b7a7c8a336ff3c420d
 Description:  MPD Web GUI - written in C, utilizing Websockets and Bootstrap/JS
 
+Package: kmod-hwmon-it87-patched
+Version: 6.6.144.2024-09-22-r1
+Depends: kernel (=6.6.144~50daf8372d971124fb3519e8d87e02ae-r1), kmod-hwmon-core
+Source: feeds/base/kmod-hwmon-it87-patched
+SourceName: hwmon-it87-patched
+Section: kernel
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 102400
+Filename: ipk/x86_64/kmod-hwmon-it87-patched_6.6.144.2024-09-22-r1_x86_64.ipk
+Size: 22593
+SHA256sum: ee51911dfd359c425ae4805f72300e6927dfcec2c79eb96e63f540d68c50e098
+Description:  Kernel module for ITE IT87xx Super I/O chips. 
+ This specific variant includes the Shauno8 patches enabling support for 
+ the ITE IT8613E found on platforms like the UGREEN DXP2800 NAS.
+
 Package: kmod-ledtrig-ugreen
 Version: 6.6.144.0.3-r1
 Depends: kernel (=6.6.144~50daf8372d971124fb3519e8d87e02ae-r1), kmod-i2c-core
