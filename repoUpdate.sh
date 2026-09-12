@@ -7,8 +7,11 @@ ls ~/Compile/ipks/*.ipk 2> /dev/null | grep -v argon | while read FILE; do
 	rm ${NAME}_*.ipk 2> /dev/null
 	mv ${FILE} ./
 done
-chmod -x *.ipk
+chmod -Rf -x *.ipk *.spk
 
+#############################################################################################
+# Repository creation code for IPK packages
+#############################################################################################
 # Define the variables needed:
 SCRIPT="$HOME/Compile/openwrt-24.10.8-x86/scripts/ipkg-make-index.sh"
 KEY="$HOME/Compile/openWrtUsign.key"
@@ -28,3 +31,14 @@ mkpackage .
 mkpackage ipk/all
 mkpackage ipk/aarch64_cortex-a53
 mkpackage ipk/x86_64
+
+#############################################################################################
+# Repository creation code for APK packages
+#############################################################################################
+function apk_package()
+{
+	$HOME/Compile/openwrt/staging_dir/host/bin/apk mkndx --root apk --keys-dir $HOME/Compile/openwrt \
+		--sign $HOME/Compile/openwrt/private-key.pem --output $1/packages.adb --allow-untrusted $1/*.apk
+}
+apk_package apk/all
+apk_package apk/aarch64_cortex-a53
