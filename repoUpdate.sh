@@ -18,26 +18,28 @@ KEY="$HOME/Compile/openWrtUsign.key"
 
 function mkhash()
 {
-	MKHASH="$HOME/Compile/openwrt-24.10.8-x86/staging_dir/host/bin/mkhash" $SCRIPT $1 | tee $1/Packages.manifest;
+	pushd $1 > /dev/null
+	MKHASH="$HOME/Compile/openwrt-24.10.8-x86/staging_dir/host/bin/mkhash" $SCRIPT . | tee Packages.manifest;
+	mkpackage $1
+	popd > /dev/null
 }
 function mkpackage()
 {
-	grep -vE '^Require' $1/Packages.manifest > $1/Packages
-	gzip -9nc $1/Packages > $1/Packages.gz
-	usign -S -m $1/Packages -s $KEY
+	pushd $1 > /dev/null
+	grep -vE '^Require' Packages.manifest > Packages
+	gzip -9nc Packages > Packages.gz
+	usign -S -m Packages -s $KEY
+	popd > /dev/null
 }
 { mkhash ipk/all; mkhash ipk/aarch64_cortex-a53; mkhash ipk/x86_64; } 2>/dev/null > Packages.manifest
 mkpackage .
-mkpackage ipk/all
-mkpackage ipk/aarch64_cortex-a53
-mkpackage ipk/x86_64
 
 #############################################################################################
 # Repository creation code for APK packages
 #############################################################################################
 function apk_package()
 {
-	$HOME/Compile/openwrt/staging_dir/host/bin/apk mkndx --root apk --keys-dir $HOME/GitHub/Builder/keys/ \
+	$HOME/Compile/openwrt/staging_dir/host/bin/apk mkndx --root $1 --keys-dir $HOME/GitHub/Builder/keys/ \
 		--sign $HOME/GitHub/Builder/keys/local-private-key.pem --output $1/packages.adb --allow-untrusted $1/*.apk
 }
 apk_package apk/all

@@ -9,7 +9,7 @@ SourceDateEpoch: 1744756127
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
 Installed-Size: 30720
-Filename: ipk/all/luci-app-adguardhome_2.2-r1_all.ipk
+Filename: luci-app-adguardhome_2.2-r1_all.ipk
 Size: 6582
 SHA256sum: 8a7e3acf6d1eb3e4fa327e0bd37344fa2ab9c80765cc536c4a2e36e64e7b9019
 Description:  LuCI Support for AdGuardHome
@@ -25,7 +25,7 @@ SourceDateEpoch: 1708761900
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1785
-Filename: ipk/all/luci-app-alpha-config_1.4_all.ipk
+Filename: luci-app-alpha-config_1.4_all.ipk
 Size: 2614
 SHA256sum: 7a77bc244b48f99985e01f5c1656869aedd254b8d3bcc94c56233f4646af626a
 Description:  Configuration Alpha theme in LuCI.
@@ -41,7 +41,7 @@ URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
-Filename: ipk/all/luci-app-argon-config_1.0-r20230608_all.ipk
+Filename: luci-app-argon-config_1.0-r20230608_all.ipk
 Size: 4015
 SHA256sum: a98ac8d241e2aba7f0f26791867f0124289418bf9365f5299602bb2793661edf
 Description:  LuCI app for Argon theme configuration
@@ -51,7 +51,7 @@ Version: 3.1.3
 Depends: libc, luci-base, rpcd, jsonfilter, uci, kmod-hwmon-core, kmod-hwmon-pwmfan
 Architecture: all
 Maintainer: OpenWrt User
-Filename: ipk/all/luci-app-fancontrol_3.1.3_all.ipk
+Filename: luci-app-fancontrol_3.1.3_all.ipk
 Size: 6992
 SHA256sum: ca5b3170230f7e780b1414657bcab4282a0cac98faef51252fe6466c6ea9b497
 Description: Automatic PWM fan control with LuCI web interface
@@ -67,7 +67,7 @@ SourceDateEpoch: 1721516774
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
 Installed-Size: 5533
-Filename: ipk/all/luci-app-nodogsplash_2.0.1-2_all.ipk
+Filename: luci-app-nodogsplash_2.0.1-2_all.ipk
 Size: 6291
 SHA256sum: 356ca0426950e707e1f4435d5c162bf430a87f5055e3c6f7ffddd49014ed21e3
 Description:  LuCI Support for nodogsplash
@@ -83,7 +83,7 @@ SourceDateEpoch: 1723637023
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
 Installed-Size: 17154
-Filename: ipk/all/luci-app-squid-adv_2.0-2_all.ipk
+Filename: luci-app-squid-adv_2.0-2_all.ipk
 Size: 17969
 SHA256sum: b69d7d114511e0e4590b97ec7dc13c1239a2d4fc8fe529214db0ce771c18f07e
 Description:  LuCI Support for Squid, complete with Transparent Proxy support for both HTTP and HTTPS!
@@ -99,7 +99,7 @@ SourceDateEpoch: 1725022777
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
 Installed-Size: 1473
-Filename: ipk/all/luci-app-ympd_1.1-1_all.ipk
+Filename: luci-app-ympd_1.1-1_all.ipk
 Size: 2216
 SHA256sum: f8137ebe680e0092de64fadaff0e57872841c3b949c86799ffc750ac35a5db68
 Description:  LuCI Support for YMPD 
@@ -115,7 +115,7 @@ SourceDateEpoch: 1721835628
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
 Installed-Size: 1631
-Filename: ipk/all/luci-mod-listening-ports_1.0-3_all.ipk
+Filename: luci-mod-listening-ports_1.0-3_all.ipk
 Size: 2381
 SHA256sum: 9ec777213f5dbd589d7409c68734c5afc14a4909430c60d6588adbc41584e767
 Description:  Shows Server Listening Ports for LuCI 
@@ -129,7 +129,7 @@ Section: luci
 SourceDateEpoch: 1775081023
 Architecture: all
 Installed-Size: 2924025
-Filename: ipk/all/luci-theme-alpha_3.9.7_beta2-10_all.ipk
+Filename: luci-theme-alpha_3.9.7_beta2-10_all.ipk
 Size: 2925171
 SHA256sum: 75c447a270edd65eb89e0e96eb92f9ea004ef4a8453a9a381eb3c42297032871
 Description:  LuCi Theme For OpenWrt And Alpha OS ONLY - Alpha
@@ -144,7 +144,7 @@ SourceDateEpoch: 1686043039
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 397028
-Filename: ipk/all/luci-theme-argon_2.4.3_all.ipk
+Filename: luci-theme-argon_2.4.3_all.ipk
 Size: 398036
 SHA256sum: 4ecc6fa2c89a0d71186ac1569090ffcc3583a76abc0db6461212de3ed0cffed4
 Description:  Argon Theme
@@ -161,7 +161,7 @@ URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 471040
-Filename: ipk/all/luci-theme-aurora_1.3.0-r20260830_all.ipk
+Filename: luci-theme-aurora_1.3.0-r20260830_all.ipk
 Size: 183314
 SHA256sum: e9904780eb405bfae78d2b2dc96fba8c04bcb815bed9a0f7ad76f802265c3699
 Description:  Aurora Theme (A modern browser theme built with Vite and Tailwind CSS)
@@ -178,7 +178,7 @@ SourceDateEpoch: 1727094886
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 427013
-Filename: ipk/all/luci-theme-proton2025_1.4.1_all.ipk
+Filename: luci-theme-proton2025_1.4.1_all.ipk
 Size: 427612
 SHA256sum: 72ddb95d4058067e8bb0f608183e636f1cdc966b76adbbeb50c6415bbebece1b
 Description:  Proton2025 - Elegant Dark Theme for LuCI
@@ -195,7 +195,7 @@ URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 798720
-Filename: ipk/all/luci-theme-shadcn_0.5.0-r20260830_all.ipk
+Filename: luci-theme-shadcn_0.5.0-r20260830_all.ipk
 Size: 523117
 SHA256sum: 4e0dc3cafd33c17636dcbc7c5b062c89266cb6e621b3c3cda910e17b369edb49
 Description:  A modern sidebar LuCI theme for OpenWrt, built with shadcn/ui design language.
@@ -211,7 +211,7 @@ SourceDateEpoch: 1744809101
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
 Installed-Size: 1070
-Filename: ipk/all/peanut_2.4-1_all.ipk
+Filename: peanut_2.4-1_all.ipk
 Size: 1861
 SHA256sum: 9243de10a075591f06e1ba478c1ce4f32a32ce3ecfac2948239b6629900f4697
 Description:  Script to list all ports that the OS is listening on, sorted by IPv4 and IPv6, then port number (ascending).
@@ -227,7 +227,7 @@ SourceDateEpoch: 1769293182
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
 Installed-Size: 20480
-Filename: ipk/all/port-trigger_1.0-r1_all.ipk
+Filename: port-trigger_1.0-r1_all.ipk
 Size: 4000
 SHA256sum: 1dc50b69434311da485c6098fe24e6148a2ebfb6ae25193b8314d4c6459b1ff5
 Description:  Port triggering rules and script for NFTables 
@@ -243,7 +243,7 @@ SourceDateEpoch: 1721516751
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
 Installed-Size: 7270
-Filename: ipk/all/privoxy-blocklist_0.4.0-4_all.ipk
+Filename: privoxy-blocklist_0.4.0-4_all.ipk
 Size: 8237
 SHA256sum: 170cc3a8092bfda9450a175042888be0ea9f422eb3eb75a8588611529fc3d450
 Description:  The script privoxy-blocklist.sh downloads AdBlock Plus filter files and generates privoxy
@@ -263,7 +263,7 @@ SourceDateEpoch: 1745947240
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
 Installed-Size: 39065
-Filename: ipk/all/reddragon-webservices_0.4-1_all.ipk
+Filename: reddragon-webservices_0.4-1_all.ipk
 Size: 40090
 SHA256sum: 096a98a5e21e50e9bcaf35f12d1492561587a74803e21854c78cfb0574eedeff
 Description:  Package that dynamically show only the services proxied by Nginx on OpenWrt.
@@ -283,7 +283,7 @@ SourceDateEpoch: 1721516759
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
 Installed-Size: 320
-Filename: ipk/all/saned-initd_1.1-2_all.ipk
+Filename: saned-initd_1.1-2_all.ipk
 Size: 1067
 SHA256sum: 7c2100a7ffa7a758dbec00728b06a5a899bec368b80beafbbf31f56699287333
 Description:  init.d script to start the SANED service
@@ -299,7 +299,7 @@ SourceDateEpoch: 1721081658
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: all
 Installed-Size: 9955
-Filename: ipk/all/twin-bcrypt-js_2.2.0-1_all.ipk
+Filename: twin-bcrypt-js_2.2.0-1_all.ipk
 Size: 10684
 SHA256sum: 6fd2c1c7b431f16938df3e63e92e282ea997ef9da87a7cf8335ab71939a16ff2
 Description:  twin-bcrypt-js
@@ -318,7 +318,7 @@ CPE-ID: cpe:/a:adguard:adguardhome
 Maintainer: Dobroslaw Kijowski <dobo90@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 30115840
-Filename: ipk/aarch64_cortex-a53/adguardhome_0.107.57-r1_aarch64_cortex-a53.ipk
+Filename: adguardhome_0.107.57-r1_aarch64_cortex-a53.ipk
 Size: 10097610
 SHA256sum: f91e5d36f3a89688deb38606ced0240c6dd01712e548a087b37ac6a293263ad0
 Description:  Free and open source, powerful network-wide ads and trackers blocking DNS server.
@@ -335,7 +335,7 @@ SourceDateEpoch: 1721516619
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 573348
-Filename: ipk/aarch64_cortex-a53/bcrypt-tool_1.1.6-2_aarch64_cortex-a53.ipk
+Filename: bcrypt-tool_1.1.6-2_aarch64_cortex-a53.ipk
 Size: 573144
 SHA256sum: 4fddac2bd604e1242fd46f7ac1143f093b443201e9fecdb1bd74b65b2e41e862
 Description:  bcrypt-tool is a dandy CLI tool for generating and matching bcrypt hashes
@@ -351,7 +351,7 @@ SourceDateEpoch: 1721510945
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 633586
-Filename: ipk/aarch64_cortex-a53/e2guardian_5.5.6r-2_aarch64_cortex-a53.ipk
+Filename: e2guardian_5.5.6r-2_aarch64_cortex-a53.ipk
 Size: 633569
 SHA256sum: c42e8a07b6430f5da59a0f2778be3e03c71819806558632e6cc01cb14d1437d9
 Description:  e2guardian is an Open Source web content filter, It filters the actual content of pages based on many methods 
@@ -370,7 +370,7 @@ URL: http://forums.mydigitallife.info/threads/50234
 Maintainer: HotBird64
 Architecture: aarch64_cortex-a53
 Installed-Size: 133120
-Filename: ipk/aarch64_cortex-a53/vlmcsd_svn1113-r2_aarch64_cortex-a53.ipk
+Filename: vlmcsd_svn1113-r2_aarch64_cortex-a53.ipk
 Size: 60766
 SHA256sum: 65818602bae60e6b733354d231a050a1650909a4bda1804847495df94fe83514
 Description:  vlmcsd is a KMS Emulator in C.
@@ -385,7 +385,7 @@ SourceDateEpoch: 1721938796
 Maintainer: Douglas Orend <doug.orend2@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 339088
-Filename: ipk/aarch64_cortex-a53/ympd_1.2.3-3_aarch64_cortex-a53.ipk
+Filename: ympd_1.2.3-3_aarch64_cortex-a53.ipk
 Size: 339467
 SHA256sum: 304eee9d02fa742ca6bd5a1604b58ae97b02f0dd4f80f1b7a7c8a336ff3c420d
 Description:  MPD Web GUI - written in C, utilizing Websockets and Bootstrap/JS
@@ -399,7 +399,7 @@ Section: kernel
 SourceDateEpoch: 1784877710
 Architecture: x86_64
 Installed-Size: 102400
-Filename: ipk/x86_64/kmod-hwmon-it87-patched_6.6.144.2024-09-22-r1_x86_64.ipk
+Filename: kmod-hwmon-it87-patched_6.6.144.2024-09-22-r1_x86_64.ipk
 Size: 22593
 SHA256sum: ee51911dfd359c425ae4805f72300e6927dfcec2c79eb96e63f540d68c50e098
 Description:  Kernel module for ITE IT87xx Super I/O chips. 
@@ -415,7 +415,7 @@ Section: kernel
 SourceDateEpoch: 1784877710
 Architecture: x86_64
 Installed-Size: 30720
-Filename: ipk/x86_64/kmod-ledtrig-ugreen_6.6.144.0.3-r1_x86_64.ipk
+Filename: kmod-ledtrig-ugreen_6.6.144.0.3-r1_x86_64.ipk
 Size: 6581
 SHA256sum: ac564aaa567a14881a8b14465ed78c2d2704888ae2d9f45bb8d8a37ceee8caaa
 Description:  Kernel module to control the front panel disk and power LEDs on UGREEN DX/DXP series NAS devices.
