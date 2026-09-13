@@ -166,6 +166,19 @@ Size: 183314
 SHA256sum: e9904780eb405bfae78d2b2dc96fba8c04bcb815bed9a0f7ad76f802265c3699
 Description:  Aurora Theme (A modern browser theme built with Vite and Tailwind CSS)
 
+Package: luci-theme-footstrap
+Version: 0.14.12-r1
+Architecture: all
+Installed-Size: 239791
+Depends: luci-base
+License: Apache-2.0
+Maintainer: Ivan Kvashonkin <vizzlef@gmail.com>
+Source: https://github.com/VizzleTF/luci-theme-footstrap
+Filename: luci-theme-footstrap_0.14.12-r1_all.ipk
+Size: 69800
+SHA256sum: e8153af57d4203a88df107a43e4f7d9bbe106461092ea8a7c182d70c33dc4750
+Description: A modern, fast LuCI theme.
+
 Package: luci-theme-proton2025
 Version: 1.4.1
 Depends: libc, luci-base
