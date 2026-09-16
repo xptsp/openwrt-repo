@@ -426,6 +426,20 @@ Size: 339467
 SHA256sum: 304eee9d02fa742ca6bd5a1604b58ae97b02f0dd4f80f1b7a7c8a336ff3c420d
 Description:  MPD Web GUI - written in C, utilizing Websockets and Bootstrap/JS
 
+Package: diskmon
+Version: 1.0.0-r1
+Depends: libc, libstdcpp6
+Source: feeds/base/utils/diskmon
+SourceName: diskmon
+Section: utils
+SourceDateEpoch: 1784877710
+Architecture: x86_64
+Installed-Size: 30720
+Filename: ipk/x86_64/diskmon_1.0.0-r1_x86_64.ipk
+Size: 4817
+SHA256sum: 5537e6bbba84cc28f0522c0aa3d007804baa740d841889462601c83e23290aea
+Description:  A lightweight C++ utility to flash specific LEDs based on /proc/diskstats activity.
+
 Package: fancontrol
 Version: 2.0.0-r1
 Depends: libc
