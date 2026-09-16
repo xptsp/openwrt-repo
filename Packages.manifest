@@ -47,6 +47,23 @@ SHA256sum: a98ac8d241e2aba7f0f26791867f0124289418bf9365f5299602bb2793661edf
 Description:  LuCI app for Argon theme configuration
 
 Package: luci-app-fancontrol
+Version: 2.0.0-r5
+Depends: libc, luci-base, fancontrol
+Source: feeds/fancontrol/luci-app-fancontrol
+SourceName: luci-app-fancontrol
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1785915009
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: ipk/all/luci-app-fancontrol_2.0.0-r5_all.ipk
+Size: 6832
+SHA256sum: 2a5ac34fe74fd7930550088eb587cd9ba13852cf79640755b074555e4776cc99
+Description:  LuCI support for the generic PWM fan controller
+
+Package: luci-app-fancontrol
 Version: 3.1.3
 Depends: libc, luci-base, rpcd, jsonfilter, uci, kmod-hwmon-core, kmod-hwmon-pwmfan
 Architecture: all
@@ -103,6 +120,22 @@ Filename: ipk/all/luci-app-ympd_1.1-1_all.ipk
 Size: 2216
 SHA256sum: f8137ebe680e0092de64fadaff0e57872841c3b949c86799ffc750ac35a5db68
 Description:  LuCI Support for YMPD 
+
+Package: luci-i18n-fancontrol-zh-cn
+Version: 26.217.27009~bdd7293
+Depends: libc, luci-app-fancontrol
+Source: feeds/fancontrol/luci-app-fancontrol
+SourceName: luci-app-fancontrol
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1785915009
+Maintainer: JiaY-shi <shi05275@163.com>
+Architecture: all
+Installed-Size: 20480
+Filename: ipk/all/luci-i18n-fancontrol-zh-cn_26.217.27009~bdd7293_all.ipk
+Size: 3271
+SHA256sum: 650bbd8e65c085883a3a1af8fc5ec7a514581ef069c1da5d3c7bee7ac089e6fa
+Description:  Translation for luci-app-fancontrol - 简体中文 (Simplified Chinese)
 
 Package: luci-mod-listening-ports
 Version: 1.0-3
@@ -402,6 +435,23 @@ Filename: ipk/aarch64_cortex-a53/ympd_1.2.3-3_aarch64_cortex-a53.ipk
 Size: 339467
 SHA256sum: 304eee9d02fa742ca6bd5a1604b58ae97b02f0dd4f80f1b7a7c8a336ff3c420d
 Description:  MPD Web GUI - written in C, utilizing Websockets and Bootstrap/JS
+
+Package: fancontrol
+Version: 2.0.0-r1
+Depends: libc
+Source: feeds/fancontrol/fancontrol
+SourceName: fancontrol
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1785915009
+Maintainer: JiaY-shi <shi05275@163.com>
+Architecture: x86_64
+Installed-Size: 30720
+Filename: ipk/x86_64/fancontrol_2.0.0-r1_x86_64.ipk
+Size: 8062
+SHA256sum: 94ce515cef7171bcc7189591ccdb5be3f4af863b947a56d239cbdddea2e891dd
+Description:  Temperature-based continuous PWM fan controller using the Linux hwmon ABI.
 
 Package: kmod-hwmon-it87-patched
 Version: 6.6.144.2024-09-22-r1

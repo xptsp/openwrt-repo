@@ -1,3 +1,20 @@
+Package: fancontrol
+Version: 2.0.0-r1
+Depends: libc
+Source: feeds/fancontrol/fancontrol
+SourceName: fancontrol
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1785915009
+Maintainer: JiaY-shi <shi05275@163.com>
+Architecture: x86_64
+Installed-Size: 30720
+Filename: fancontrol_2.0.0-r1_x86_64.ipk
+Size: 8062
+SHA256sum: 94ce515cef7171bcc7189591ccdb5be3f4af863b947a56d239cbdddea2e891dd
+Description:  Temperature-based continuous PWM fan controller using the Linux hwmon ABI.
+
 Package: kmod-hwmon-it87-patched
 Version: 6.6.144.2024-09-22-r1
 Depends: kernel (=6.6.144~50daf8372d971124fb3519e8d87e02ae-r1), kmod-hwmon-core
