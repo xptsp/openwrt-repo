@@ -1,3 +1,39 @@
+Package: clevis
+Version: 21-r4
+Depends: libc, jose, bash, coreutils, curl, luksmeta, libcryptsetup
+Source: feeds/base/utils/clevis
+SourceName: clevis
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1784877710
+URL: https://github.com/latchset/clevis
+Maintainer: OpenWrt Developer <dev@openwrt.org>
+Architecture: x86_64
+Installed-Size: 81920
+Filename: clevis_21-r4_x86_64.ipk
+Size: 20615
+SHA256sum: 5189d69b1a131af3d5627b75e748a0488722a2d5a164b50aefc97975cc7da7bc
+Description:  Clevis is a pluggable framework for automated decryption.
+ It allows locking and unlocking data using network servers (Tang) or TPM2 chips.
+
+Package: clevis-unlock
+Version: 1.0.0-r1
+Depends: libc, clevis, cryptsetup, uuidgen
+Source: feeds/base/utils/clevis-unlock
+SourceName: clevis-unlock
+License: GPL-2.0-or-later
+Section: utils
+SourceDateEpoch: 1784877710
+Maintainer: Developer <developer@example.com>
+Architecture: x86_64
+Installed-Size: 10240
+Filename: clevis-unlock_1.0.0-r1_x86_64.ipk
+Size: 1757
+SHA256sum: 72d3ffc4ef69288062b1a2d7d01a6cbdd583a5923354e6d0cd69fcdaa344eb91
+Description:  An init.d helper script to automatically and concurrently unlock 
+ LUKS partitions using Clevis during the OpenWrt boot cycle.
+
 Package: diskmon
 Version: 1.0.0-r1
 Depends: libc, libstdcpp6
