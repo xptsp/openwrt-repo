@@ -459,17 +459,17 @@ Description:  Kernel module for ITE IT87xx Super I/O chips.
  This specific variant includes the Shauno8 patches enabling support for 
  the ITE IT8613E found on platforms like the UGREEN DXP2800 NAS.
 
-Package: kmod-ledtrig-ugreen
-Version: 6.6.144.0.3-r1
-Depends: kernel (=6.6.144~50daf8372d971124fb3519e8d87e02ae-r1), kmod-i2c-core
-Source: feeds/base/kernel/kmod-ledtrig-ugreen
-SourceName: kmod-ledtrig-ugreen
+Package: kmod-led-ugreen
+Version: 6.6.144.0.1-r1
+Depends: kernel (=6.6.144~50daf8372d971124fb3519e8d87e02ae-r1), kmod-i2c-i801, kmod-leds-gpio
+Source: feeds/base/kernel/led-ugreen
+SourceName: led-ugreen
 Section: kernel
 SourceDateEpoch: 1784877710
 Architecture: x86_64
 Installed-Size: 30720
-Filename: ipk/x86_64/kmod-ledtrig-ugreen_6.6.144.0.3-r1_x86_64.ipk
-Size: 6581
-SHA256sum: ac564aaa567a14881a8b14465ed78c2d2704888ae2d9f45bb8d8a37ceee8caaa
-Description:  Kernel module to control the front panel disk and power LEDs on UGREEN DX/DXP series NAS devices.
+Filename: ipk/x86_64/kmod-led-ugreen_6.6.144.0.1-r1_x86_64.ipk
+Size: 6529
+SHA256sum: cdbda4f6bc6a0c5ecf1c298828c1315d99d4218533a02c28233723daaedd099c
+Description:  Kernel module for UGREEN NAS front panel LEDs
 
