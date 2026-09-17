@@ -35,7 +35,7 @@ Description:  Provides LUKS disk binding and unlocking integration for Clevis.
 
 Package: clevis-unlock
 Version: 1.0.0-r1
-Depends: libc, clevis, cryptsetup, uuidgen
+Depends: libc, clevis, cryptsetup, uuidgen, clevis-luks
 Source: feeds/base/utils/clevis-unlock
 SourceName: clevis-unlock
 License: GPL-2.0-or-later
@@ -45,8 +45,8 @@ Maintainer: Developer <developer@example.com>
 Architecture: x86_64
 Installed-Size: 10240
 Filename: clevis-unlock_1.0.0-r1_x86_64.ipk
-Size: 1758
-SHA256sum: 6f096ca735082256498c37c889d9d393acf880cc16826886a77ac1a3949286ac
+Size: 1767
+SHA256sum: 455eba258bcc14fcbea96af25aeffc39cc4e1d1e1fc4e2cdbd07a2c058afbfd6
 Description:  An init.d helper script to automatically and concurrently unlock 
  LUKS partitions using Clevis during the OpenWrt boot cycle.
 
