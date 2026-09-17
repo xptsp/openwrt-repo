@@ -428,7 +428,7 @@ Description:  MPD Web GUI - written in C, utilizing Websockets and Bootstrap/JS
 
 Package: clevis
 Version: 21-r4
-Depends: libc, jose, bash, coreutils, curl, luksmeta, cryptsetup
+Depends: libc, jose, luksmeta, jq, bash, cryptsetup
 Source: feeds/base/utils/clevis
 SourceName: clevis
 License: GPL-3.0-or-later
@@ -438,12 +438,28 @@ SourceDateEpoch: 1784877710
 URL: https://github.com/latchset/clevis
 Maintainer: OpenWrt Developer <dev@openwrt.org>
 Architecture: x86_64
-Installed-Size: 81920
+Installed-Size: 10240
 Filename: ipk/x86_64/clevis_21-r4_x86_64.ipk
-Size: 20612
-SHA256sum: d8b14202e2b25eb7735007e4ad1c4461d623acec87be337558ef3185bd43c571
-Description:  Clevis is a pluggable framework for automated decryption.
- It allows locking and unlocking data using network servers (Tang) or TPM2 chips.
+Size: 1951
+SHA256sum: 42707a37c6c64b4286b763363faf87ca6a780a5d334b366a8b044271d621aeaa
+Description:  Clevis is a framework for automated decryption.
+
+Package: clevis-luks
+Version: 21-r4
+Depends: libc, clevis, cryptsetup
+Source: feeds/base/utils/clevis
+SourceName: clevis
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1784877710
+Maintainer: OpenWrt Developer <dev@openwrt.org>
+Architecture: x86_64
+Installed-Size: 10240
+Filename: ipk/x86_64/clevis-luks_21-r4_x86_64.ipk
+Size: 935
+SHA256sum: 42b557cd3e33dd61d58d67b735b4d67868497c866b2d42d97edb5dff67996b81
+Description:  Provides LUKS disk binding and unlocking integration for Clevis.
 
 Package: clevis-unlock
 Version: 1.0.0-r1
