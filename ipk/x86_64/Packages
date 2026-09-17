@@ -1,6 +1,6 @@
 Package: clevis
 Version: 21-r4
-Depends: libc, jose, bash, coreutils, curl, luksmeta, libcryptsetup
+Depends: libc, jose, bash, coreutils, curl, luksmeta, cryptsetup
 Source: feeds/base/utils/clevis
 SourceName: clevis
 License: GPL-3.0-or-later
@@ -12,8 +12,8 @@ Maintainer: OpenWrt Developer <dev@openwrt.org>
 Architecture: x86_64
 Installed-Size: 81920
 Filename: clevis_21-r4_x86_64.ipk
-Size: 20615
-SHA256sum: 5189d69b1a131af3d5627b75e748a0488722a2d5a164b50aefc97975cc7da7bc
+Size: 20612
+SHA256sum: d8b14202e2b25eb7735007e4ad1c4461d623acec87be337558ef3185bd43c571
 Description:  Clevis is a pluggable framework for automated decryption.
  It allows locking and unlocking data using network servers (Tang) or TPM2 chips.
 
@@ -29,8 +29,8 @@ Maintainer: Developer <developer@example.com>
 Architecture: x86_64
 Installed-Size: 10240
 Filename: clevis-unlock_1.0.0-r1_x86_64.ipk
-Size: 1757
-SHA256sum: 72d3ffc4ef69288062b1a2d7d01a6cbdd583a5923354e6d0cd69fcdaa344eb91
+Size: 1758
+SHA256sum: 6f096ca735082256498c37c889d9d393acf880cc16826886a77ac1a3949286ac
 Description:  An init.d helper script to automatically and concurrently unlock 
  LUKS partitions using Clevis during the OpenWrt boot cycle.
 
@@ -94,4 +94,21 @@ Filename: kmod-led-ugreen_6.6.144.0.1-r1_x86_64.ipk
 Size: 6529
 SHA256sum: cdbda4f6bc6a0c5ecf1c298828c1315d99d4218533a02c28233723daaedd099c
 Description:  Kernel module for UGREEN NAS front panel LEDs
+
+Package: luksmeta
+Version: 9-r1
+Depends: libc, cryptsetup, libdevmapper, libuuid1
+Source: feeds/base/utils/luksmeta
+SourceName: luksmeta
+License: LGPL-2.0+
+Section: utils
+SourceDateEpoch: 1784877710
+URL: https://github.com
+Maintainer: Your Name <your@email.com>
+Architecture: x86_64
+Installed-Size: 30720
+Filename: luksmeta_9-r1_x86_64.ipk
+Size: 9546
+SHA256sum: f6f42dde247b6fc869c1ad526139f5a2d6a35b61b2f90e1a1609d73399b51a5b
+Description:  LUKSMeta is a utility for storing metadata in the LUKSv1 header gap.
 
