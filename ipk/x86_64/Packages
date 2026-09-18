@@ -1,6 +1,6 @@
 Package: clevis
 Version: 21-r4
-Depends: libc, jose, luksmeta, jq, bash, cryptsetup
+Depends: libc, jose, bash, coreutils, curl, luksmeta, cryptsetup, jansson4
 Source: feeds/base/utils/clevis
 SourceName: clevis
 License: GPL-3.0-or-later
@@ -10,15 +10,16 @@ SourceDateEpoch: 1784877710
 URL: https://github.com/latchset/clevis
 Maintainer: OpenWrt Developer <dev@openwrt.org>
 Architecture: x86_64
-Installed-Size: 10240
+Installed-Size: 71680
 Filename: clevis_21-r4_x86_64.ipk
-Size: 1951
-SHA256sum: 42707a37c6c64b4286b763363faf87ca6a780a5d334b366a8b044271d621aeaa
-Description:  Clevis is a framework for automated decryption.
+Size: 14438
+SHA256sum: b6520a054f32c57516f70405084a03b52e29d4111acfd2c713fdbaf291cf7007
+Description:  Clevis is a pluggable framework for automated decryption.
+ It allows locking and unlocking data using network servers (Tang) or TPM2 chips.
 
 Package: clevis-luks
 Version: 21-r4
-Depends: libc, clevis, cryptsetup
+Depends: libc, clevis, cryptsetup, luksmeta
 Source: feeds/base/utils/clevis
 SourceName: clevis
 License: GPL-3.0-or-later
@@ -27,11 +28,28 @@ Section: utils
 SourceDateEpoch: 1784877710
 Maintainer: OpenWrt Developer <dev@openwrt.org>
 Architecture: x86_64
-Installed-Size: 10240
+Installed-Size: 40960
 Filename: clevis-luks_21-r4_x86_64.ipk
-Size: 935
-SHA256sum: 42b557cd3e33dd61d58d67b735b4d67868497c866b2d42d97edb5dff67996b81
+Size: 6975
+SHA256sum: c4bf383af0dc04671327f54c71b58c3593cfa660d9500dc3becf9fe335468fe4
 Description:  Provides LUKS disk binding and unlocking integration for Clevis.
+
+Package: clevis-tpm2
+Version: 21-r4
+Depends: libc, clevis, tpm2-tools, kmod-tpm, kmod-tpm-tis
+Source: feeds/base/utils/clevis
+SourceName: clevis
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1784877710
+Maintainer: OpenWrt Developer <dev@openwrt.org>
+Architecture: x86_64
+Installed-Size: 20480
+Filename: clevis-tpm2_21-r4_x86_64.ipk
+Size: 4732
+SHA256sum: 5ed1bc3b5083982590e90e68dd65febf4d50cb24e65a24968fa48f8e7a9be9e1
+Description:  Provides TPM2 binding and unlocking integration for Clevis.
 
 Package: clevis-unlock
 Version: 1.0.0-r1
@@ -127,4 +145,38 @@ Filename: luksmeta_9-r1_x86_64.ipk
 Size: 9546
 SHA256sum: f6f42dde247b6fc869c1ad526139f5a2d6a35b61b2f90e1a1609d73399b51a5b
 Description:  LUKSMeta is a utility for storing metadata in the LUKSv1 header gap.
+
+Package: tpm2-tools
+Version: 5.5-r1
+Depends: libc, tpm2-tss, libopenssl3, libcurl4, efivar
+Source: feeds/tpm2/tpm2-tools
+SourceName: tpm2-tools
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1681244729
+URL: https://github.com/tpm2-software/tpm2-tools
+Architecture: x86_64
+Installed-Size: 655360
+Filename: tpm2-tools_5.5-r1_x86_64.ipk
+Size: 200530
+SHA256sum: 0e46b8f8e498a736f20cb3c2947db7c7faa77869af46e99dca194848a6d19175
+Description:  TPM (Trusted Platform Module) 2 tools
+
+Package: tpm2-tss
+Version: 4.0.1-r1
+Depends: libc, libgcrypt, libopenssl3, libcurl4, libjson-c5, libuuid1
+Source: feeds/tpm2/tpm2-tss
+SourceName: tpm2-tss
+License: BSD-2-Clause
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1681244729
+URL: https://github.com/tpm2-software/tpm2-tss
+Architecture: x86_64
+Installed-Size: 8560640
+Filename: tpm2-tss_4.0.1-r1_x86_64.ipk
+Size: 2674810
+SHA256sum: 1b35a582125beeeeb03c4deacedaeeb5695c4a3d54ce511281bae5c1fe5c5c87
+Description:  OSS implementation of the TCG TPM2 Software Stack (TSS2)
 
