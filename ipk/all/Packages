@@ -63,6 +63,24 @@ Size: 6832
 SHA256sum: 2a5ac34fe74fd7930550088eb587cd9ba13852cf79640755b074555e4776cc99
 Description:  LuCI support for the generic PWM fan controller
 
+Package: luci-app-nginx-manager
+Version: 1.8.6-r1
+Depends: libc, luci-base, nginx-ssl, rpcd, rpcd-mod-file, openssl-util, acme, acme-acmesh-dnsapi, diffutils, flock
+Source: feeds/base/luci-app-nginx-manager
+SourceName: luci-app-nginx-manager
+License: AGPL-3.0-only
+Section: luci
+SourceDateEpoch: 1787305333
+Maintainer: yunshu
+Architecture: all
+Installed-Size: 450560
+Filename: luci-app-nginx-manager_1.8.6-r1_all.ipk
+Size: 93937
+SHA256sum: 6ba684e80f07ce4ba9be4728338a8ffa36e13e6be6ce91bc6327da267bdc4007
+Description:  Complete Nginx management plugin for OpenWrt LuCI.
+ Provides site management, reverse proxy, SSL certificates,
+ logs, configuration testing, backup and rollback.
+
 Package: luci-app-nodogsplash
 Version: 2.0.1-2
 Depends: libc, nodogsplash, luci-base
