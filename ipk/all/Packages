@@ -46,6 +46,23 @@ Size: 4015
 SHA256sum: a98ac8d241e2aba7f0f26791867f0124289418bf9365f5299602bb2793661edf
 Description:  LuCI app for Argon theme configuration
 
+Package: luci-app-clevis
+Version: 1.0.0-r1
+Depends: libc, clevis, clevis-luks, blkid
+Source: feeds/xptsp/luci/luci-app-clevis
+SourceName: luci-app-clevis
+License: GPL-3.0-or-later
+Section: luci
+SourceDateEpoch: 1784877710
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-clevis_1.0.0-r1_all.ipk
+Size: 2495
+SHA256sum: fcb7c08dd8e1f35c72bef0f50cfde0c89fc40246feb30ee102c0ccb00438bf10
+Description:  LuCI support for Clevis Automated Encryption Framework
+
 Package: luci-app-fancontrol
 Version: 2.0.0-r5
 Depends: libc, luci-base, fancontrol
