@@ -1,54 +1,54 @@
 Package: clevis
-Version: 21-r5
+Version: 21-r6
 Depends: libc, jose, bash, coreutils, curl, luksmeta, cryptsetup, jansson4
 Source: feeds/xptsp/clevis/clevis
 SourceName: clevis
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1789723841
+SourceDateEpoch: 1790783623
 URL: https://github.com/latchset/clevis
 Maintainer: OpenWrt Developer <dev@openwrt.org>
 Architecture: x86_64
 Installed-Size: 71680
-Filename: clevis_21-r5_x86_64.ipk
-Size: 14444
-SHA256sum: 10e476744288534d138d8ed009dda3b575eb684b8aa5925e452817a3bd137200
+Filename: clevis_21-r6_x86_64.ipk
+Size: 14443
+SHA256sum: f7750e188cb573754c74222c1761a775316cc2a9be624274e8085ffbe4119cb0
 Description:  Clevis is a pluggable framework for automated decryption.
  It allows locking and unlocking data using network servers (Tang) or TPM2 chips.
 
 Package: clevis-luks
-Version: 21-r5
+Version: 21-r6
 Depends: libc, clevis, cryptsetup, luksmeta
 Source: feeds/xptsp/clevis/clevis
 SourceName: clevis
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1789723841
+SourceDateEpoch: 1790783623
 Maintainer: OpenWrt Developer <dev@openwrt.org>
 Architecture: x86_64
 Installed-Size: 81920
-Filename: clevis-luks_21-r5_x86_64.ipk
-Size: 16488
-SHA256sum: ef577eac03ae4f9125be35e5fbedc72caeb475eecab1ff19e233ab14af259ff0
+Filename: clevis-luks_21-r6_x86_64.ipk
+Size: 16459
+SHA256sum: 1b64998c219f758ed6cacb1caed9a6632690782b7b2e106e4e0e0024888d120a
 Description:  Provides LUKS disk binding and unlocking integration for Clevis.
 
 Package: clevis-tpm2
-Version: 21-r5
+Version: 21-r6
 Depends: libc, clevis, tpm2-tools, kmod-tpm, kmod-tpm-tis
 Source: feeds/xptsp/clevis/clevis
 SourceName: clevis
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1789723841
+SourceDateEpoch: 1790783623
 Maintainer: OpenWrt Developer <dev@openwrt.org>
 Architecture: x86_64
 Installed-Size: 20480
-Filename: clevis-tpm2_21-r5_x86_64.ipk
-Size: 4734
-SHA256sum: a708d0110b36a70b79aff9e1443e316a3b90d2b2c7b5cf885bde6aabd4571c3a
+Filename: clevis-tpm2_21-r6_x86_64.ipk
+Size: 4732
+SHA256sum: c5835d7bd4dfaf3f736ddfb50f9548378931d06848002bd5b094d51b117498f4
 Description:  Provides TPM2 binding and unlocking integration for Clevis.
 
 Package: diskmon

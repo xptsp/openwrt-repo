@@ -47,20 +47,20 @@ SHA256sum: a98ac8d241e2aba7f0f26791867f0124289418bf9365f5299602bb2793661edf
 Description:  LuCI app for Argon theme configuration
 
 Package: luci-app-clevis
-Version: 1.0.0-r1
+Version: 1.0.0-r2
 Depends: libc, clevis, clevis-luks, blkid
-Source: feeds/xptsp/luci/luci-app-clevis
+Source: feeds/xptsp/clevis/luci-app-clevis
 SourceName: luci-app-clevis
 License: GPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1784877710
+SourceDateEpoch: 1790787415
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
-Filename: ipk/all/luci-app-clevis_1.0.0-r1_all.ipk
-Size: 2495
-SHA256sum: fcb7c08dd8e1f35c72bef0f50cfde0c89fc40246feb30ee102c0ccb00438bf10
+Filename: ipk/all/luci-app-clevis_1.0.0-r2_all.ipk
+Size: 2788
+SHA256sum: 66a04906275d72f1213fe800cdbe034aca57cca05ecce680406c02e96b4959ea
 Description:  LuCI support for Clevis Automated Encryption Framework
 
 Package: luci-app-fancontrol
@@ -462,56 +462,56 @@ SHA256sum: 304eee9d02fa742ca6bd5a1604b58ae97b02f0dd4f80f1b7a7c8a336ff3c420d
 Description:  MPD Web GUI - written in C, utilizing Websockets and Bootstrap/JS
 
 Package: clevis
-Version: 21-r5
+Version: 21-r6
 Depends: libc, jose, bash, coreutils, curl, luksmeta, cryptsetup, jansson4
 Source: feeds/xptsp/clevis/clevis
 SourceName: clevis
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1789723841
+SourceDateEpoch: 1790783623
 URL: https://github.com/latchset/clevis
 Maintainer: OpenWrt Developer <dev@openwrt.org>
 Architecture: x86_64
 Installed-Size: 71680
-Filename: ipk/x86_64/clevis_21-r5_x86_64.ipk
-Size: 14444
-SHA256sum: 10e476744288534d138d8ed009dda3b575eb684b8aa5925e452817a3bd137200
+Filename: ipk/x86_64/clevis_21-r6_x86_64.ipk
+Size: 14443
+SHA256sum: f7750e188cb573754c74222c1761a775316cc2a9be624274e8085ffbe4119cb0
 Description:  Clevis is a pluggable framework for automated decryption.
  It allows locking and unlocking data using network servers (Tang) or TPM2 chips.
 
 Package: clevis-luks
-Version: 21-r5
+Version: 21-r6
 Depends: libc, clevis, cryptsetup, luksmeta
 Source: feeds/xptsp/clevis/clevis
 SourceName: clevis
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1789723841
+SourceDateEpoch: 1790783623
 Maintainer: OpenWrt Developer <dev@openwrt.org>
 Architecture: x86_64
 Installed-Size: 81920
-Filename: ipk/x86_64/clevis-luks_21-r5_x86_64.ipk
-Size: 16488
-SHA256sum: ef577eac03ae4f9125be35e5fbedc72caeb475eecab1ff19e233ab14af259ff0
+Filename: ipk/x86_64/clevis-luks_21-r6_x86_64.ipk
+Size: 16459
+SHA256sum: 1b64998c219f758ed6cacb1caed9a6632690782b7b2e106e4e0e0024888d120a
 Description:  Provides LUKS disk binding and unlocking integration for Clevis.
 
 Package: clevis-tpm2
-Version: 21-r5
+Version: 21-r6
 Depends: libc, clevis, tpm2-tools, kmod-tpm, kmod-tpm-tis
 Source: feeds/xptsp/clevis/clevis
 SourceName: clevis
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1789723841
+SourceDateEpoch: 1790783623
 Maintainer: OpenWrt Developer <dev@openwrt.org>
 Architecture: x86_64
 Installed-Size: 20480
-Filename: ipk/x86_64/clevis-tpm2_21-r5_x86_64.ipk
-Size: 4734
-SHA256sum: a708d0110b36a70b79aff9e1443e316a3b90d2b2c7b5cf885bde6aabd4571c3a
+Filename: ipk/x86_64/clevis-tpm2_21-r6_x86_64.ipk
+Size: 4732
+SHA256sum: c5835d7bd4dfaf3f736ddfb50f9548378931d06848002bd5b094d51b117498f4
 Description:  Provides TPM2 binding and unlocking integration for Clevis.
 
 Package: diskmon
