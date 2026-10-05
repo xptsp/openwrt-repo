@@ -44,3 +44,4 @@ function apk_package()
 }
 apk_package apk/all
 apk_package apk/aarch64_cortex-a53
+apk_package apk/x86_64
