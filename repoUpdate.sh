@@ -39,9 +39,22 @@ mkpackage .
 #############################################################################################
 function apk_package()
 {
-	$HOME/Compile/openwrt/staging_dir/host/bin/apk mkndx --root $1 --keys-dir $HOME/GitHub/Builder/keys/ \
-		--sign $HOME/GitHub/Builder/keys/local-private-key.pem --output $1/packages.adb --allow-untrusted $1/*.apk
+    # Save current directory and jump into the target package directory
+    pushd "$1" > /dev/null
+
+    # Run the indexer using purely relative local targets (*.apk)
+    $HOME/Compile/openwrt/staging_dir/host/bin/apk mkndx \
+        --root "$HOME/Compile/openwrt" \
+        --keys-dir "$HOME/GitHub/Builder/keys/" \
+        --sign "$HOME/GitHub/Builder/keys/local-private-key.pem" \
+        --output packages.adb \
+        --allow-untrusted \
+        *.apk
+
+    # Return to your original working directory
+    popd > /dev/null
 }
+
 apk_package apk/all
 apk_package apk/aarch64_cortex-a53
 apk_package apk/x86_64
