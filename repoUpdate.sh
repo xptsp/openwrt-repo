@@ -25,14 +25,18 @@ function mkhash()
 }
 function mkpackage()
 {
-	pushd $1 > /dev/null
+	# Return if calculated sha256sum hash has changed: 	
+	CUR=$(sha256sum *.ipk 2> /dev/null | sha256sum)
+	OLD=$(cat .hash.txt 2> /dev/null)
+	[[ "${CUR}" == "${OLD}" ]] && return
+	echo "${CUR}" > .hash.txt
+
 	grep -vE '^Require' Packages.manifest > Packages
 	gzip -9nc Packages > Packages.gz
 	usign -S -m Packages -s $KEY
-	popd > /dev/null
 }
-{ mkhash ipk/all; mkhash ipk/aarch64_cortex-a53; mkhash ipk/x86_64; } 2>/dev/null > Packages.manifest
-mkpackage .
+#{ mkhash ipk/all; mkhash ipk/aarch64_cortex-a53; mkhash ipk/x86_64; } 2>/dev/null > Packages.manifest
+#mkpackage .
 
 #############################################################################################
 # Repository creation code for APK packages
@@ -41,6 +45,15 @@ function apk_package()
 {
     # Save current directory and jump into the target package directory
     pushd "$1" > /dev/null
+
+	# Return if calculated sha256sum hash has changed: 	
+	CUR=$(sha256sum *.apk 2> /dev/null | sha256sum)
+	OLD=$(cat .hash.txt 2> /dev/null)
+	if [[ "${CUR}" == "${OLD}" ]]; then
+		popd 2> /dev/null
+		return
+	fi
+	echo "${CUR}" > .hash.txt
 
     # Run the indexer using purely relative local targets (*.apk)
     $HOME/Compile/openwrt/staging_dir/host/bin/apk mkndx \
